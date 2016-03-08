@@ -23,6 +23,7 @@ $this->menu=array(
 	'htmlOptions'=>array('class'=>'table table-striped'),
 	'attributes'=>array(
 		'IDUSUARIO',
+		'IDROL',
 		'CODUSUARIO',
 		'APEPATERNO',
 		'APEMATERNO',
@@ -33,7 +34,7 @@ $this->menu=array(
 		'TELEFONO',
 		'EMAIL',
 		'CLAVE',
-		'FECHAREGISTRO',
+		'FECHAREGISTRO',	
 		'ESTADO',
 	),
 )); ?>

@@ -17,6 +17,11 @@
 	</div>
 
 	<div class="row">
+		<?php echo $form->label($model,'IDROL'); ?>
+		<?php echo $form->textField($model,'IDROL',array('size'=>10,'maxlength'=>10)); ?>
+	</div>
+
+	<div class="row">
 		<?php echo $form->label($model,'CODUSUARIO'); ?>
 		<?php echo $form->textField($model,'CODUSUARIO',array('size'=>8,'maxlength'=>8)); ?>
 	</div>

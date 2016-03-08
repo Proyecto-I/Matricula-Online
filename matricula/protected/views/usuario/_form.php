@@ -28,6 +28,14 @@
 	</div>
 
 	<div class="form-group">
+		<?php echo $form->labelEx($model,'IDROL',array('class'=>'col-sm-2 control-label')); ?>
+		<div class="col-sm-10">
+		<?php echo $form->textField($model,'IDROL',array('class'=>'form-control','size'=>8,'maxlength'=>8)); ?>
+		<?php echo $form->error($model,'IDROL'); ?>
+		</div>
+	</div>
+
+	<div class="form-group">
 		<?php echo $form->labelEx($model,'APEPATERNO',array('class'=>'col-sm-2 control-label')); ?>
 		<div class="col-sm-10">
 		<?php echo $form->textField($model,'APEPATERNO',array('class'=>'form-control','size'=>50,'maxlength'=>50)); ?>

@@ -36,7 +36,7 @@ class Usuario extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('CODUSUARIO, APEPATERNO, APEMATERNO, NOMBRES, DNI, EMAIL, CLAVE, FECHAREGISTRO, ESTADO', 'required'),
+			array('IDROL, CODUSUARIO, APEPATERNO, APEMATERNO, NOMBRES, DNI, EMAIL, CLAVE, FECHAREGISTRO, ESTADO', 'required'),
 			array('CODUSUARIO', 'length', 'max'=>8),
 			array('APEPATERNO, APEMATERNO, NOMBRES, CARGO, EMAIL', 'length', 'max'=>50),
 			array('DNI', 'length', 'max'=>10),
@@ -45,7 +45,7 @@ class Usuario extends CActiveRecord
 			array('ESTADO', 'length', 'max'=>1),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('IDUSUARIO, CODUSUARIO, APEPATERNO, APEMATERNO, NOMBRES, DNI, CARGO, DIRECCION, TELEFONO, EMAIL, CLAVE, FECHAREGISTRO, ESTADO', 'safe', 'on'=>'search'),
+			array('IDUSUARIO, IDROL, CODUSUARIO, APEPATERNO, APEMATERNO, NOMBRES, DNI, CARGO, DIRECCION, TELEFONO, EMAIL, CLAVE, FECHAREGISTRO, ESTADO', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -67,6 +67,7 @@ class Usuario extends CActiveRecord
 	{
 		return array(
 			'IDUSUARIO' => 'Idusuario',
+			'IDROL' => 'Rol',
 			'CODUSUARIO' => 'Codusuario',
 			'APEPATERNO' => 'Apellido Paterno',
 			'APEMATERNO' => 'Apellido Materno',
@@ -101,6 +102,7 @@ class Usuario extends CActiveRecord
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('IDUSUARIO',$this->IDUSUARIO,true);
+		$criteria->compare('IDROL',$this->IDROL,true);
 		$criteria->compare('CODUSUARIO',$this->CODUSUARIO,true);
 		$criteria->compare('APEPATERNO',$this->APEPATERNO,true);
 		$criteria->compare('APEMATERNO',$this->APEMATERNO,true);
