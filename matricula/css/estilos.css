@@ -1,0 +1,12 @@
+/* perfil */
+.perfil {
+	background: #333;
+	padding: 15px;
+}
+.perfil h3 {
+	color: #fff;
+	font-size: 14px;
+}
+.perfil p {
+	color: #fff;
+}
