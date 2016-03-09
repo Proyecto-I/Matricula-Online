@@ -76,8 +76,9 @@
 					      	'itemOptions'=>array('class'=>'dropdown'),
 
 					      	'items'=>array(
-					        	array('label'=>'Usuario', 'url'=>array('/usuario/admin')),
-					        	array('label'=>'Alumno', 'url'=>array('/change/ecoPolicy')),
+					        	array('label'=>'Usuario', 'url'=>array('/usuario/index')),
+					        	array('label'=>'Carrera', 'url'=>array('/carrera/index')),
+					        	array('label'=>'Profesor', 'url'=>array('/change/responsibility')),
 					        	array('label'=>'Profesor', 'url'=>array('/change/responsibility')),
 					      	),
 						),

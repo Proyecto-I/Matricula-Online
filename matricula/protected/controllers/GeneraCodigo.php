@@ -5,7 +5,7 @@ class GeneraController
 	{	
 		$conexion = Yii::app()->db;	
 		$tabla = strtolower($tabla);
-		$consulta = "SELECT CONCAT('".strtoupper(substr($tabla,0,2))."', LPAD((Max(substring(COD".$tabla.",5,10))+1),".$letras.",'".$caracter."')) as 'codigo' FROM ".$tabla."";
+		$consulta = "SELECT CONCAT('".strtoupper(substr($tabla,0,2))."', LPAD((Max(substring(cod".$tabla.",5,10))+1),".$letras.",'".$caracter."')) AS 'codigo' FROM ".$tabla."";
 
 		//echo $consulta;
 		//exit();
@@ -15,7 +15,6 @@ class GeneraController
 		//$filacodigo = $resultado->query();
 
 		$filacodigo = $resultado->queryColumn();
-
 
 		//print_r($filacodigo);
 		//exit();

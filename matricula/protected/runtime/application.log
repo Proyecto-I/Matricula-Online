@@ -8289,3 +8289,1878 @@ Stack trace:
 REQUEST_URI=/Matricula-Online/matricula/usuario/img/foto.png
 HTTP_REFERER=http://localhost:8080/Matricula-Online/matricula/usuario/admin
 ---
+2016/03/09 06:11:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "img/foto.png"' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('img/foto.png')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/
+---
+2016/03/09 06:11:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('site/img/foto.p...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/site/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/site/login
+---
+2016/03/09 06:11:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/usuario/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/usuario/admin
+---
+2016/03/09 06:11:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/usuario/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/usuario/admin
+---
+2016/03/09 06:12:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/usuario/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/usuario/admin?Usuario_page=2
+---
+2016/03/09 06:12:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/usuario/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/usuario/admin?Usuario_page=2
+---
+2016/03/09 06:12:52 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:1118
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(291): CFilterChain->run()
+#7 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('delete')
+#9 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario/delete')
+#10 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/Matricula-Online/matricula/usuario/delete/14
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/usuario/admin?Usuario_page=2
+---
+2016/03/09 06:12:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/usuario/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/usuario/
+---
+2016/03/09 06:12:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/usuario/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/usuario/
+---
+2016/03/09 06:14:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/usuario/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/usuario/
+---
+2016/03/09 06:14:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/usuario/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/usuario/
+---
+2016/03/09 06:14:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/usuario/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/usuario/
+---
+2016/03/09 06:15:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/usuario/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/usuario/admin
+---
+2016/03/09 06:36:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/usuario/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/usuario/admin
+---
+2016/03/09 06:40:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "img/foto.png"' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('img/foto.png')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera
+---
+2016/03/09 06:41:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/create
+---
+2016/03/09 06:44:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/1
+---
+2016/03/09 06:44:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/index
+---
+2016/03/09 06:45:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/index
+---
+2016/03/09 06:45:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/index
+---
+2016/03/09 06:46:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/index
+---
+2016/03/09 07:03:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/index
+---
+2016/03/09 07:03:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/index
+---
+2016/03/09 07:03:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/index
+---
+2016/03/09 07:03:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/create
+---
+2016/03/09 07:04:30 [error] [php] include(GeneraController.php): failed to open stream: No such file or directory (/Users/Maritza/Sitios/Matricula-Online/framework/YiiBase.php:432)
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/matricula/protected/controllers/CarreraController.php(73): spl_autoload_call()
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/actions/CInlineAction.php(49): CarreraController->actionCreate()
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CFilterChain.php(133): CarreraController->runAction()
+#4 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#6 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CInlineFilter.php(58): CarreraController->filterAccessControl()
+#7 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#8 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(291): CFilterChain->run()
+#9 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(265): CarreraController->runActionWithFilters()
+#10 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CarreraController->run()
+#11 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#13 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CWebApplication->run()
+REQUEST_URI=/Matricula-Online/matricula/carrera/create
+in /Users/Maritza/Sitios/Matricula-Online/matricula/protected/controllers/CarreraController.php (73)
+in /Users/Maritza/Sitios/Matricula-Online/matricula/index.php (13)
+2016/03/09 07:05:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/create
+---
+2016/03/09 07:05:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/2
+---
+2016/03/09 07:06:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/index
+---
+2016/03/09 07:06:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/admin
+---
+2016/03/09 07:06:28 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:336
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(291): CFilterChain->run()
+#7 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('update')
+#9 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/update/...')
+#10 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/update/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/update/2
+---
+2016/03/09 07:06:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/2
+---
+2016/03/09 07:07:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/index
+---
+2016/03/09 07:08:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/create
+---
+2016/03/09 07:08:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/3
+---
+2016/03/09 07:08:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/index
+---
+2016/03/09 07:10:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/admin
+---
+2016/03/09 07:10:11 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:336
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(291): CFilterChain->run()
+#7 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('update')
+#9 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/update/...')
+#10 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/update/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/update/3
+---
+2016/03/09 07:10:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/3
+---
+2016/03/09 07:10:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/index
+---
+2016/03/09 07:13:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/create
+---
+2016/03/09 07:14:11 [error] [php] Undefined index: codigo (/Users/Maritza/Sitios/Matricula-Online/matricula/protected/controllers/GeneraCodigo.php:22)
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CFilterChain.php(133): CarreraController->runAction()
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#4 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CInlineFilter.php(58): CarreraController->filterAccessControl()
+#5 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#6 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(291): CFilterChain->run()
+#7 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(265): CarreraController->runActionWithFilters()
+#8 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CarreraController->run()
+#9 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CWebApplication->run()
+REQUEST_URI=/Matricula-Online/matricula/carrera/create
+in /Users/Maritza/Sitios/Matricula-Online/matricula/protected/controllers/GeneraCodigo.php (22)
+in /Users/Maritza/Sitios/Matricula-Online/matricula/protected/controllers/CarreraController.php (75)
+in /Users/Maritza/Sitios/Matricula-Online/matricula/index.php (13)
+2016/03/09 07:14:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/4
+---
+2016/03/09 07:14:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/index
+---
+2016/03/09 07:14:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/admin
+---
+2016/03/09 07:16:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/create
+---
+2016/03/09 07:18:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/5
+---
+2016/03/09 07:18:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/index
+---
+2016/03/09 07:18:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/admin
+---
+2016/03/09 07:19:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/index
+---
+2016/03/09 07:19:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/create
+---
+2016/03/09 07:19:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/admin
+---
+2016/03/09 07:19:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/create
+---
+2016/03/09 07:21:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/6
+---
+2016/03/09 07:21:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/admin
+---
+2016/03/09 07:24:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/create
+---
+2016/03/09 07:25:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/7
+---
+2016/03/09 07:25:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/admin
+---
+2016/03/09 07:25:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/create
+---
+2016/03/09 07:26:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/8
+---
+2016/03/09 07:26:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/admin
+---
+2016/03/09 07:27:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/admin?Carrera%5BIDCARRERA%5D=&Carrera%5BCODCARRERA%5D=&Carrera%5BDESCRIPCION%5D=software&Carrera%5BFECHAREGISTRO%5D=&Carrera%5BESTADO%5D=&yt0=Search
+---
+2016/03/09 07:27:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/index
+---
+2016/03/09 07:27:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/admin
+---
+2016/03/09 07:27:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/create
+---
+2016/03/09 07:28:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/9
+---
+2016/03/09 07:28:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/admin
+---
+2016/03/09 07:30:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/create
+---
+2016/03/09 07:30:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/10
+---
+2016/03/09 07:30:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/admin
+---
+2016/03/09 07:30:52 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:336
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(291): CFilterChain->run()
+#7 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('update')
+#9 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/update/...')
+#10 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/update/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/update/10
+---
+2016/03/09 07:30:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/admin
+---
+2016/03/09 07:31:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/create
+---
+2016/03/09 07:31:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/11
+---
+2016/03/09 07:31:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/admin
+---
+2016/03/09 07:31:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/create
+---
+2016/03/09 07:32:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/12
+---
+2016/03/09 07:32:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/admin
+---
+2016/03/09 07:32:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/admin?Carrera_page=2
+---
+2016/03/09 07:32:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/admin
+---
+2016/03/09 07:32:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/admin?Carrera_page=2
+---
+2016/03/09 07:32:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/admin
+---
+2016/03/09 07:33:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/admin?Carrera_page=2
+---
+2016/03/09 07:33:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/create
+---
+2016/03/09 07:33:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/13
+---
+2016/03/09 07:33:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/admin
+---
+2016/03/09 07:33:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/admin?Carrera_page=2
+---
+2016/03/09 07:34:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/admin
+---
+2016/03/09 07:34:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/admin?Carrera_page=2
+---
+2016/03/09 07:34:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/admin
+---
+2016/03/09 07:34:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/admin?Carrera_page=2
+---
+2016/03/09 07:35:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/admin
+---
+2016/03/09 07:35:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/create
+---
+2016/03/09 07:36:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/14
+---
+2016/03/09 07:36:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/admin
+---
+2016/03/09 07:36:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/admin?Carrera_page=2
+---
+2016/03/09 07:36:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/create
+---
+2016/03/09 07:36:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/15
+---
+2016/03/09 07:36:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/admin
+---
+2016/03/09 07:36:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/admin?Carrera_page=2
+---
+2016/03/09 07:36:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/admin
+---
+2016/03/09 07:36:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/create
+---
+2016/03/09 07:37:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/16
+---
+2016/03/09 07:37:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/admin
+---
+2016/03/09 07:37:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/admin?Carrera_page=2
+---
+2016/03/09 07:38:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/admin
+---
+2016/03/09 07:38:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/admin?Carrera_page=2
+---
+2016/03/09 07:39:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/admin
+---
+2016/03/09 07:39:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/admin?Carrera_page=2
+---
+2016/03/09 07:39:12 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:1118
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(291): CFilterChain->run()
+#7 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('delete')
+#9 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/delete')
+#10 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/delete/16
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/admin?Carrera_page=2
+---
+2016/03/09 07:39:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/
+---
+2016/03/09 07:39:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/index?Carrera_page=2
+---
+2016/03/09 07:39:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/16
+---
+2016/03/09 07:39:43 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:336
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(291): CFilterChain->run()
+#7 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('update')
+#9 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/update/...')
+#10 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/update/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/update/16
+---
+2016/03/09 07:39:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/usuario/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/usuario/admin
+---
+2016/03/09 07:40:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/usuario/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/usuario/index
+---
+2016/03/09 07:40:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/usuario/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/usuario/admin
+---
+2016/03/09 07:40:11 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:336
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(291): CFilterChain->run()
+#7 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('update')
+#9 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario/update/...')
+#10 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/Matricula-Online/matricula/usuario/update/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/usuario/update/4
+---
+2016/03/09 07:40:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/usuario/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/usuario/create
+---
+2016/03/09 07:40:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/usuario/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/usuario/admin
+---
+2016/03/09 07:40:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/usuario/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/usuario/index
+---
+2016/03/09 07:40:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/usuario/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/usuario/admin
+---
+2016/03/09 07:40:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/usuario/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/usuario/create
+---
+2016/03/09 07:40:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/usuario/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/usuario/admin
+---
+2016/03/09 07:42:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/usuario/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/usuario/admin
+---
+2016/03/09 07:42:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/index
+---
+2016/03/09 07:42:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/usuario/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/usuario/index
+---
+2016/03/09 07:42:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/index
+---
+2016/03/09 07:42:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/usuario/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/usuario/index
+---
+2016/03/09 07:42:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/usuario/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/usuario/admin
+---
+2016/03/09 07:42:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/index
+---
+2016/03/09 07:43:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/index
+---
+2016/03/09 07:43:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/index
+---
+2016/03/09 07:44:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/index
+---
+2016/03/09 07:44:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/index
+---
+2016/03/09 07:44:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/index
+---
+2016/03/09 07:51:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/index
+---
+2016/03/09 07:51:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/index
+---
+2016/03/09 07:51:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/js/jquery.min.map
+---
+2016/03/09 07:52:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/index
+---
+2016/03/09 07:52:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/js/jquery.min.map
+---
+2016/03/09 07:52:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/admin
+---
+2016/03/09 07:52:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/index
+---
+2016/03/09 07:52:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/create
+---
+2016/03/09 07:52:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/index
+---
+2016/03/09 07:52:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/admin
+---
+2016/03/09 07:52:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/index
+---
+2016/03/09 07:56:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/index
+---
+2016/03/09 07:56:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/index
+---
+2016/03/09 07:56:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/js/jquery.min.map
+---
+2016/03/09 07:57:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/create
+---
+2016/03/09 07:57:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/admin
+---
+2016/03/09 07:57:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/index
+---
+2016/03/09 07:57:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/admin
+---
+2016/03/09 07:57:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/admin
+---
+2016/03/09 07:57:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/index
+---
+2016/03/09 07:57:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/admin
+---
+2016/03/09 07:57:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/create
+---
+2016/03/09 07:57:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/admin
+---
+2016/03/09 07:57:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/index
+---
+2016/03/09 07:58:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/create
+---
+2016/03/09 07:58:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/create
+---
+2016/03/09 07:58:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/admin
+---
+2016/03/09 07:58:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/index
+---
+2016/03/09 07:58:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "img/foto.png"' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('img/foto.png')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/
+---
+2016/03/09 07:58:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('img')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('carrera/img/fot...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/carrera/img/foto.png
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/index
+---
