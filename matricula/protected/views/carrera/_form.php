@@ -4,7 +4,7 @@
 /* @var $form CActiveForm */
 ?>
 
-<div class="form">
+<div class="form form-horizontal">
 
 <?php $form=$this->beginWidget('CActiveForm', array(
 	'id'=>'carrera-form',
@@ -15,36 +15,51 @@
 	'enableAjaxValidation'=>false,
 )); ?>
 
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
+	<p class="note">Los campos com <span class="required">*</span> son requeridos.</p>
 
-	<?php echo $form->errorSummary($model); ?>
+	<?php //echo $form->errorSummary($model); ?>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'CODCARRERA'); ?>
-		<?php echo $form->textField($model,'CODCARRERA',array('size'=>8,'maxlength'=>8)); ?>
-		<?php echo $form->error($model,'CODCARRERA'); ?>
+	<div class="form-group">
+		<?php echo $form->labelEx($model,'CODCARRERA',array('class'=>'col-sm-2 control-label')); ?>
+		<div class="col-sm-10">
+			<?php echo $form->textField($model,'CODCARRERA',array('class'=>'form-control','size'=>8,'maxlength'=>8,'disabled'=>'true')); ?>
+			<?php echo $form->error($model,'CODCARRERA'); ?>
+		</div>
 	</div>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'DESCRIPCION'); ?>
-		<?php echo $form->textField($model,'DESCRIPCION',array('size'=>60,'maxlength'=>100)); ?>
-		<?php echo $form->error($model,'DESCRIPCION'); ?>
+	<div class="form-group">
+		<?php echo $form->labelEx($model,'DESCRIPCION',array('class'=>'col-sm-2 control-label')); ?>
+		<div class="col-sm-10">
+			<?php echo $form->textField($model,'DESCRIPCION',array('class'=>'form-control','size'=>60,'maxlength'=>100)); ?>
+			<?php echo $form->error($model,'DESCRIPCION'); ?>
+		</div>
 	</div>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'FECHAREGISTRO'); ?>
-		<?php echo $form->textField($model,'FECHAREGISTRO'); ?>
-		<?php echo $form->error($model,'FECHAREGISTRO'); ?>
+	<div class="form-group">
+		<?php echo $form->labelEx($model,'FECHAREGISTRO',array('class'=>'col-sm-2 control-label')); ?>
+		<div class="col-sm-10">
+            <div class="input-group date" id="datetimepicker1">
+				<?php echo $form->textField($model,'FECHAREGISTRO',array('class'=>'form-control')); ?>
+				<span class="input-group-addon">
+                    <span class="glyphicon glyphicon-calendar"></span>
+                </span>
+				<?php echo $form->error($model,'FECHAREGISTRO'); ?>
+			</div>
+		</div>
 	</div>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'ESTADO'); ?>
-		<?php echo $form->textField($model,'ESTADO',array('size'=>1,'maxlength'=>1)); ?>
-		<?php echo $form->error($model,'ESTADO'); ?>
+	<div class="form-group">
+		<?php echo $form->labelEx($model,'ESTADO',array('class'=>'col-sm-2 control-label')); ?>
+		<div class="col-sm-10">
+			<?php echo $form->textField($model,'ESTADO',array('class'=>'form-control','size'=>1,'maxlength'=>1)); ?>
+			<?php echo $form->error($model,'ESTADO'); ?>
+		</div>
 	</div>
 
-	<div class="row buttons">
-		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
+	<div class="form-group buttons">
+		<div class="col-sm-offset-2 col-sm-10">
+			<?php echo CHtml::submitButton($model->isNewRecord ? 'Registrar' : 'Actualizar',array('class'=>'btn btn-primary')); ?>
+		</div>
 	</div>
 
 <?php $this->endWidget(); ?>

@@ -1,6 +1,18 @@
+/* NAVBAR */
 .navbar-static-top {
   margin-bottom: 19px;
 }
+
+@media (min-width: 768px) {
+  .navbar-default{
+    background-image: none !important;
+  }
+  .navbar-default {
+    background-color: transparent !important;
+    border-color: transparent !important;
+  }
+}
+
 
 
 /* LOGIN */
