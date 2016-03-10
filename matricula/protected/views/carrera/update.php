@@ -4,18 +4,18 @@
 
 $this->breadcrumbs=array(
 	'Carreras'=>array('index'),
-	$model->IDCARRERA=>array('view','id'=>$model->IDCARRERA),
-	'Update',
+	$model->CODCARRERA=>array('view','id'=>$model->IDCARRERA),
+	'Actualizar',
 );
 
 $this->menu=array(
-	array('label'=>'List Carrera', 'url'=>array('index')),
-	array('label'=>'Create Carrera', 'url'=>array('create')),
-	array('label'=>'View Carrera', 'url'=>array('view', 'id'=>$model->IDCARRERA)),
-	array('label'=>'Manage Carrera', 'url'=>array('admin')),
+	array('label'=>'Listar Carrera', 'url'=>array('index')),
+	array('label'=>'Registrar Carrera', 'url'=>array('create')),
+	array('label'=>'Ver Carrera', 'url'=>array('view', 'id'=>$model->IDCARRERA)),
+	array('label'=>'Administrar Carrera', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Update Carrera <?php echo $model->IDCARRERA; ?></h1>
+<h3>Actualizar Carrera: <?php echo $model->CODCARRERA; ?></h3>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

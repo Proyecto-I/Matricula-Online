@@ -21,7 +21,7 @@
 
 	<div class="form-group">
 		<?php echo $form->labelEx($model,'CODCARRERA',array('class'=>'col-sm-2 control-label')); ?>
-		<div class="col-sm-10">
+		<div class="col-sm-3">
 			<?php echo $form->textField($model,'CODCARRERA',array('class'=>'form-control','size'=>8,'maxlength'=>8,'disabled'=>'true')); ?>
 			<?php echo $form->error($model,'CODCARRERA'); ?>
 		</div>
@@ -37,21 +37,21 @@
 
 	<div class="form-group">
 		<?php echo $form->labelEx($model,'FECHAREGISTRO',array('class'=>'col-sm-2 control-label')); ?>
-		<div class="col-sm-10">
+		<div class="col-sm-3">
             <div class="input-group date" id="datetimepicker1">
 				<?php echo $form->textField($model,'FECHAREGISTRO',array('class'=>'form-control')); ?>
 				<span class="input-group-addon">
                     <span class="glyphicon glyphicon-calendar"></span>
-                </span>
-				<?php echo $form->error($model,'FECHAREGISTRO'); ?>
+                </span>	
+                <?php echo $form->error($model,'FECHAREGISTRO'); ?>			
 			</div>
 		</div>
 	</div>
 
 	<div class="form-group">
 		<?php echo $form->labelEx($model,'ESTADO',array('class'=>'col-sm-2 control-label')); ?>
-		<div class="col-sm-10">
-			<?php echo $form->textField($model,'ESTADO',array('class'=>'form-control','size'=>1,'maxlength'=>1)); ?>
+		<div class="col-sm-3">
+			<?php echo $form->dropDownList($model,'ESTADO',array('A'=>'Activo', 'I'=>'Inactivo'), array('class'=>'form-control','size'=>1,'maxlength'=>1)); ?>
 			<?php echo $form->error($model,'ESTADO'); ?>
 		</div>
 	</div>

@@ -111,16 +111,6 @@
 }
 
 /* PERFIL */
-.perfil img {
-	border: 4px solid rgba(255, 255, 255, 0.11);
-}
-
-/* BREADCRUMB */
-.breadcrumb {
-    margin-top: 20px;
-}
-
-/* perfil */
 .perfil {
 	background: #333;
 	padding: 15px;
@@ -132,7 +122,20 @@
 .perfil p {
 	color: #fff;
 }
+.perfil img {
+	border: 4px solid rgba(255, 255, 255, 0.11);
+}
+
+/* BREADCRUMB */
+.breadcrumb {
+    margin-top: 20px;
+}
+
 /* Grid */
 .grid-view .button-column {
     width: 80px;
+}
+
+.select[multiple], select[size] {
+    height: 34px;
 }

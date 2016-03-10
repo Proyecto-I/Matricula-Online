@@ -4,7 +4,7 @@
 
 $this->breadcrumbs=array(
 	'Carreras'=>array('index'),
-	$model->IDCARRERA,
+	$model->CODCARRERA,
 );
 
 $this->menu=array(
@@ -16,12 +16,13 @@ $this->menu=array(
 );
 ?>
 
-<h1>View Carrera #<?php echo $model->IDCARRERA; ?></h1>
+<h3>Ver Carrera <?php echo $model->DESCRIPCION; ?></h3>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
+	'htmlOptions'=>array("class"=>"table table-striped table-bordered"),
 	'data'=>$model,
 	'attributes'=>array(
-		'IDCARRERA',
+		//'IDCARRERA',
 		'CODCARRERA',
 		'DESCRIPCION',
 		'FECHAREGISTRO',
