@@ -399,3 +399,275 @@ Stack trace:
 REQUEST_URI=/Matricula-Online/matricula/carrera/delete/17
 HTTP_REFERER=http://localhost/Matricula-Online/matricula/carrera/admin?Carrera_page=2
 ---
+2016/03/10 19:39:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\xampp\htdocs\Matricula-Online\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Matricula-Online\matricula\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/js/jquery.min.map
+---
+2016/03/10 19:41:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\xampp\htdocs\Matricula-Online\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Matricula-Online\matricula\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/js/jquery.min.map
+---
+2016/03/10 19:44:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\xampp\htdocs\Matricula-Online\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Matricula-Online\matricula\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/js/jquery.min.map
+---
+2016/03/10 19:49:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\xampp\htdocs\Matricula-Online\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Matricula-Online\matricula\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/js/jquery.min.map
+---
+2016/03/10 19:50:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\xampp\htdocs\Matricula-Online\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Matricula-Online\matricula\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/js/jquery.min.map
+---
+2016/03/10 19:50:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\xampp\htdocs\Matricula-Online\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Matricula-Online\matricula\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/js/jquery.min.map
+---
+2016/03/10 19:51:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\xampp\htdocs\Matricula-Online\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Matricula-Online\matricula\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/js/jquery.min.map
+---
+2016/03/10 19:51:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\xampp\htdocs\Matricula-Online\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Matricula-Online\matricula\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/js/jquery.min.map
+---
+2016/03/10 19:51:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\xampp\htdocs\Matricula-Online\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Matricula-Online\matricula\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/js/jquery.min.map
+---
+2016/03/10 19:52:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\xampp\htdocs\Matricula-Online\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Matricula-Online\matricula\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/js/jquery.min.map
+---
+2016/03/10 19:52:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\xampp\htdocs\Matricula-Online\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Matricula-Online\matricula\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/js/jquery.min.map
+---
+2016/03/10 19:52:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\xampp\htdocs\Matricula-Online\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Matricula-Online\matricula\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/js/jquery.min.map
+---
+2016/03/10 19:52:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\xampp\htdocs\Matricula-Online\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Matricula-Online\matricula\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/js/jquery.min.map
+---
+2016/03/10 19:52:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\xampp\htdocs\Matricula-Online\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Matricula-Online\matricula\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/js/jquery.min.map
+---
+2016/03/10 19:53:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\xampp\htdocs\Matricula-Online\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Matricula-Online\matricula\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/js/jquery.min.map
+---
+2016/03/10 19:53:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\xampp\htdocs\Matricula-Online\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Matricula-Online\matricula\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/js/jquery.min.map
+---
+2016/03/10 19:55:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\xampp\htdocs\Matricula-Online\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Matricula-Online\matricula\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/js/jquery.min.map
+---
+2016/03/10 19:55:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\xampp\htdocs\Matricula-Online\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Matricula-Online\matricula\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/js/jquery.min.map
+---
+2016/03/10 19:55:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\xampp\htdocs\Matricula-Online\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Matricula-Online\matricula\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/js/jquery.min.map
+---
+2016/03/10 19:55:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\xampp\htdocs\Matricula-Online\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Matricula-Online\matricula\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/js/jquery.min.map
+---
+2016/03/10 19:55:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\xampp\htdocs\Matricula-Online\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Matricula-Online\matricula\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/js/jquery.min.map
+---
+2016/03/10 19:56:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\xampp\htdocs\Matricula-Online\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Matricula-Online\matricula\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/js/jquery.min.map
+---
+2016/03/10 19:56:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\xampp\htdocs\Matricula-Online\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Matricula-Online\matricula\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/js/jquery.min.map
+---
+2016/03/10 19:56:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\xampp\htdocs\Matricula-Online\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Matricula-Online\matricula\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/js/jquery.min.map
+---
+2016/03/10 19:56:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\xampp\htdocs\Matricula-Online\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Matricula-Online\matricula\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/js/jquery.min.map
+---
+2016/03/10 19:57:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\xampp\htdocs\Matricula-Online\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Matricula-Online\matricula\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/js/jquery.min.map
+---
+2016/03/10 19:57:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\xampp\htdocs\Matricula-Online\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Matricula-Online\matricula\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/js/jquery.min.map
+---
+2016/03/10 19:58:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\xampp\htdocs\Matricula-Online\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Matricula-Online\matricula\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/js/jquery.min.map
+---
+2016/03/10 20:03:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\xampp\htdocs\Matricula-Online\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Matricula-Online\matricula\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/js/jquery.min.map
+---
+2016/03/10 20:04:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\xampp\htdocs\Matricula-Online\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Matricula-Online\matricula\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/js/jquery.min.map
+---
+2016/03/10 21:27:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\xampp\htdocs\Matricula-Online\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Matricula-Online\matricula\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/js/jquery.min.map
+---
+2016/03/10 21:27:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\xampp\htdocs\Matricula-Online\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Matricula-Online\matricula\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/js/jquery.min.map
+---
+2016/03/10 21:29:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\xampp\htdocs\Matricula-Online\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Matricula-Online\matricula\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/js/jquery.min.map
+---
+2016/03/10 21:29:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\xampp\htdocs\Matricula-Online\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Matricula-Online\matricula\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/js/jquery.min.map
+---

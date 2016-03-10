@@ -125,6 +125,11 @@
 .perfil img {
 	border: 4px solid rgba(255, 255, 255, 0.11);
 }
+.name-user {
+	font-family: "montserratregular",Helvetica,Arial,sans-serif;
+	font-size: 17px;
+	color: #fff;
+}	
 
 /* BREADCRUMB */
 .breadcrumb {
@@ -138,4 +143,31 @@
 
 .select[multiple], select[size] {
     height: 34px;
+}
+
+/* PAGINATION */
+.list-view .pager {
+	margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+ul.yiiPager a:link, ul.yiiPager a:visited {
+	padding: 5px 14px;
+	font-weight: normal;	
+}
+ul.yiiPager {
+	font-size: 13px;
+}
+ul.yiiPager .selected a, ul.yiiPager>.selected>a:focus, ul.yiiPager>.selected>a:hover, ul.yiiPager>.selected>span, ul.yiiPager>.selected>span:focus, ul.yiiPager>.selected>span:hover {
+    background: #2e6ab1;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #337ab7;
+    border-color: #337ab7;
 }

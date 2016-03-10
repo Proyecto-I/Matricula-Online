@@ -137,9 +137,10 @@
 			<div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
 				<div class="perfil text-center">
 					<img src="http://demo.neontheme.com/assets/images/thumb-1@2x.png" alt="" class="img-circle">
+					<p>Bienvenido</p>
+					<p class="name-user">Maritza Milla Tarazona</p>
 					<h3>ADMINISTRADOR</h3>
-					<p>Usuario:<br><span>Maritza Milla Tarazona</span></p>
-					<p>Último Acceso<br> <span>27-01-2016</span></p>
+					<p>Último Acceso: <span><?php echo date('d-m-y'); ?></span></p>
 				</div>
 	        </div><!--/.sidebar-offcanvas-->
 			<div class="col-xs-12 col-sm-9">
