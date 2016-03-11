@@ -671,3 +671,113 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/Matricula-Online/matricula/js/jquery.min.map
 ---
+2016/03/11 14:58:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\xampp\htdocs\Matricula-Online\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Matricula-Online\matricula\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/js/jquery.min.map
+---
+2016/03/11 15:00:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\xampp\htdocs\Matricula-Online\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Matricula-Online\matricula\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/js/jquery.min.map
+---
+2016/03/11 15:00:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\xampp\htdocs\Matricula-Online\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Matricula-Online\matricula\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/js/jquery.min.map
+---
+2016/03/11 15:02:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\xampp\htdocs\Matricula-Online\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Matricula-Online\matricula\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/js/jquery.min.map
+---
+2016/03/11 15:03:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\xampp\htdocs\Matricula-Online\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Matricula-Online\matricula\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/js/jquery.min.map
+---
+2016/03/11 15:03:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\xampp\htdocs\Matricula-Online\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Matricula-Online\matricula\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/js/jquery.min.map
+---
+2016/03/11 15:04:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\xampp\htdocs\Matricula-Online\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Matricula-Online\matricula\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/js/jquery.min.map
+---
+2016/03/11 15:33:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "alumno/index"' in C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php(141): CWebApplication->runController('alumno/index')
+#1 C:\xampp\htdocs\Matricula-Online\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Matricula-Online\matricula\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/alumno/index
+HTTP_REFERER=http://localhost:8080/Matricula-Online/matricula/site/page?view=about
+---
+2016/03/11 15:33:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "ciclo/index"' in C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php(141): CWebApplication->runController('ciclo/index')
+#1 C:\xampp\htdocs\Matricula-Online\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Matricula-Online\matricula\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/ciclo/index
+HTTP_REFERER=http://localhost:8080/Matricula-Online/matricula/carrera/index
+---
+2016/03/11 15:33:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "rol/index"' in C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php(141): CWebApplication->runController('rol/index')
+#1 C:\xampp\htdocs\Matricula-Online\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Matricula-Online\matricula\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/rol/index
+HTTP_REFERER=http://localhost:8080/Matricula-Online/matricula/carrera/index
+---
+2016/03/11 17:01:30 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in C:\xampp\htdocs\Matricula-Online\framework\web\CController.php:1118
+Stack trace:
+#0 C:\xampp\htdocs\Matricula-Online\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\xampp\htdocs\Matricula-Online\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\Matricula-Online\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\Matricula-Online\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\Matricula-Online\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\Matricula-Online\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\Matricula-Online\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\Matricula-Online\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php(141): CWebApplication->runController('ciclo/delete')
+#10 C:\xampp\htdocs\Matricula-Online\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\Matricula-Online\matricula\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/Matricula-Online/matricula/ciclo/delete/12
+HTTP_REFERER=http://localhost:8080/Matricula-Online/matricula/ciclo/admin?Ciclo_page=2
+---
+2016/03/11 17:09:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "curso/index"' in C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Matricula-Online\framework\web\CWebApplication.php(141): CWebApplication->runController('curso/index')
+#1 C:\xampp\htdocs\Matricula-Online\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Matricula-Online\matricula\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/curso/index
+HTTP_REFERER=http://localhost:8080/Matricula-Online/matricula/ciclo/index
+---

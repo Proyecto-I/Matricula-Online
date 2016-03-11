@@ -94,15 +94,23 @@
 									      	'itemOptions'=>array('class'=>'dropdown'),
 
 									      	'items'=>array(
-									        	array('label'=>'Usuario', 'url'=>array('/usuario/index')),
+									      		array('label'=>'Alumno', 'url'=>array('/alumno/index')),
 									        	array('label'=>'Carrera', 'url'=>array('/carrera/index')),
-									        	array('label'=>'Profesor', 'url'=>array('/change/responsibility')),
-									        	array('label'=>'Profesor', 'url'=>array('/change/responsibility')),
+									        	array('label'=>'Ciclo', 'url'=>array('/ciclo/index')),
+									        	array('label'=>'Curso', 'url'=>array('/curso/index')),
+									        	array('label'=>'Profesor', 'url'=>array('/profesor/index')),
+									        	array('label'=>'Rol', 'url'=>array('/rol/index')),
+									        	array('label'=>'Usuario', 'url'=>array('/usuario/index')),
 									      	),
 										),
 
 										array(
-											'label'=>'About',
+											'label'=>'Programación de Curso',
+											'url'=>array('/site/page',
+											'view'=>'about')
+										),
+										array(
+											'label'=>'Matrícula',
 											'url'=>array('/site/page',
 											'view'=>'about')
 										),
