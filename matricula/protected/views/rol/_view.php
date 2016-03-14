@@ -25,5 +25,9 @@
 	<?php echo CHtml::encode($data->FECHAREGISTRO); ?>
 	<br />
 
+	<b><?php echo CHtml::encode($data->getAttributeLabel('ESTADO')); ?>:</b>
+	<?php echo CHtml::encode($data->ESTADO); ?>
+	<br />
+
 
 </div>

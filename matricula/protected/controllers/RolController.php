@@ -1,4 +1,5 @@
 <?php
+include('GeneraCodigo.php');
 
 class RolController extends Controller
 {
@@ -63,6 +64,9 @@ class RolController extends Controller
 	public function actionCreate()
 	{
 		$model=new Rol;
+		//Genera Codigo
+		$genera = new GeneraController;
+		$codigo = $genera->creaCodigo('rol', '6', '0');
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
@@ -70,6 +74,9 @@ class RolController extends Controller
 		if(isset($_POST['Rol']))
 		{
 			$model->attributes=$_POST['Rol'];
+			$model->FECHAREGISTRO = date('y-m-d');
+			$model->CODROL = $codigo;
+
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->IDROL));
 		}

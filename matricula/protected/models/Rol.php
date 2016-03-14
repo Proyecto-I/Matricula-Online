@@ -36,9 +36,10 @@ class Rol extends CActiveRecord
 			array('NOMBRE', 'length', 'max'=>50),
 			array('DESCRIPCION', 'length', 'max'=>100),
 			array('FECHAREGISTRO', 'safe'),
+			array('ESTADO', 'length', 'max'=>1),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('IDROL, CODROL, NOMBRE, DESCRIPCION, FECHAREGISTRO', 'safe', 'on'=>'search'),
+			array('IDROL, CODROL, NOMBRE, DESCRIPCION, FECHAREGISTRO, ESTADO', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -66,6 +67,7 @@ class Rol extends CActiveRecord
 			'NOMBRE' => 'Nombre',
 			'DESCRIPCION' => 'Descripcion',
 			'FECHAREGISTRO' => 'Fecharegistro',
+			'ESTADO' => 'Estado',
 		);
 	}
 

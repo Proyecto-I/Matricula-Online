@@ -64,19 +64,18 @@ class CursoController extends Controller
 	public function actionCreate()
 	{
 		$model=new Curso;
+		//Genera Codigo
+		$genera = new GeneraController;
+		$codigo = $genera->creaCodigo('curso', '6', '0');
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
 		if(isset($_POST['Curso']))
 		{
-			//Genera Codigo
-			$genera = new GeneraController;
-			$codigo = $genera->creaCodigo('carrera', '6', '0');
-
 			$model->attributes=$_POST['Curso'];
 			$model->FECHAREGISTRO = date('y-m-d');
-			$model->CODCARRERA = $codigo;
+			$model->CODCURSO = $codigo;
 			
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->IDCURSO));

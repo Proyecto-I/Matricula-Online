@@ -1,4 +1,5 @@
 <?php
+include('GeneraCodigo.php');
 
 class ProfesorController extends Controller
 {
@@ -63,6 +64,9 @@ class ProfesorController extends Controller
 	public function actionCreate()
 	{
 		$model=new Profesor;
+		//Genera Codigo
+		$genera = new GeneraController;
+		$codigo = $genera->creaCodigo('profesor', '6', '0');
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
@@ -70,6 +74,9 @@ class ProfesorController extends Controller
 		if(isset($_POST['Profesor']))
 		{
 			$model->attributes=$_POST['Profesor'];
+			$model->FECHAREGISTRO = date('y-m-d');
+			$model->CODPROFESOR = $codigo;
+
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->IDPROFESOR));
 		}

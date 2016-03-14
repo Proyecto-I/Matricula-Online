@@ -15,7 +15,7 @@
 	'enableAjaxValidation'=>false,
 )); ?>
 
-	<p class="note small">Fields with <span class="required">*</span> are required.</p>
+	<p class="note small">Los campos con <span class="required">*</span> son requeridos.</p>
 
 	<?php echo $form->errorSummary($model); ?>
 
@@ -52,8 +52,16 @@
 	</div>
 
 	<div class="form-group">
+		<?php echo $form->labelEx($model,'ESTADO',array('class'=>'col-sm-2 control-label')); ?>
+		<div class="col-sm-3">
+			<?php echo $form->dropDownList($model,'ESTADO',array('A'=>'Activo', 'I'=>'Inactivo'),array('class'=>'form-control','size'=>1,'maxlength'=>1)); ?>
+			<?php echo $form->error($model,'ESTADO'); ?>
+		</div>
+	</div>
+
+	<div class="form-group">
 		<div class="col-sm-offset-2 col-sm-10">
-			<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save', array('class'=>'btn btn-primary')); ?>
+			<?php echo CHtml::submitButton($model->isNewRecord ? 'Registrar' : 'Grabar', array('class'=>'btn btn-primary')); ?>
 		</div>
 	</div>
 

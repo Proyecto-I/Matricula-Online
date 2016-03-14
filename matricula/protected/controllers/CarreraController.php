@@ -64,15 +64,15 @@ class CarreraController extends Controller
 	public function actionCreate()
 	{
 		$model=new Carrera;
+		//Genera Codigo
+		$genera = new GeneraController;
+		$codigo = $genera->creaCodigo('carrera', '6', '0');
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
 		if(isset($_POST['Carrera']))
 		{
-			//Genera Codigo
-			$genera = new GeneraController;
-			$codigo = $genera->creaCodigo('carrera', '6', '0');
 			
 			$model->attributes=$_POST['Carrera'];
 			$model->FECHAREGISTRO = date('y-m-d');
