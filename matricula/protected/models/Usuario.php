@@ -5,6 +5,7 @@
  *
  * The followings are the available columns in table 'usuario':
  * @property string $IDUSUARIO
+ * @property string $IDROL
  * @property string $CODUSUARIO
  * @property string $APEPATERNO
  * @property string $APEMATERNO
@@ -17,6 +18,9 @@
  * @property string $CLAVE
  * @property string $FECHAREGISTRO
  * @property string $ESTADO
+ *
+ * The followings are the available model relations:
+ * @property Rol $iDROL
  */
 class Usuario extends CActiveRecord
 {
@@ -37,15 +41,15 @@ class Usuario extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('IDROL, CODUSUARIO, APEPATERNO, APEMATERNO, NOMBRES, DNI, EMAIL, CLAVE, FECHAREGISTRO, ESTADO', 'required'),
+			array('IDROL, DNI', 'length', 'max'=>10),
 			array('CODUSUARIO', 'length', 'max'=>8),
-			array('APEPATERNO, APEMATERNO, NOMBRES, CARGO, EMAIL', 'length', 'max'=>50),
-			array('DNI', 'length', 'max'=>10),
+			array('APEPATERNO, APEMATERNO, NOMBRES, EMAIL', 'length', 'max'=>50),
 			array('DIRECCION', 'length', 'max'=>100),
 			array('TELEFONO, CLAVE', 'length', 'max'=>20),
 			array('ESTADO', 'length', 'max'=>1),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('IDUSUARIO, IDROL, CODUSUARIO, APEPATERNO, APEMATERNO, NOMBRES, DNI, CARGO, DIRECCION, TELEFONO, EMAIL, CLAVE, FECHAREGISTRO, ESTADO', 'safe', 'on'=>'search'),
+			array('IDUSUARIO, IDROL, CODUSUARIO, APEPATERNO, APEMATERNO, NOMBRES, DNI, DIRECCION, TELEFONO, EMAIL, CLAVE, FECHAREGISTRO, ESTADO', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -57,6 +61,7 @@ class Usuario extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'iDROL' => array(self::BELONGS_TO, 'Rol', 'IDROL'),
 		);
 	}
 
@@ -68,17 +73,16 @@ class Usuario extends CActiveRecord
 		return array(
 			'IDUSUARIO' => 'Idusuario',
 			'IDROL' => 'Rol',
-			'CODUSUARIO' => 'Codusuario',
-			'APEPATERNO' => 'Apellido Paterno',
-			'APEMATERNO' => 'Apellido Materno',
+			'CODUSUARIO' => 'Cod. Usuario',
+			'APEPATERNO' => 'Ape. Paterno',
+			'APEMATERNO' => 'Ape. Materno',
 			'NOMBRES' => 'Nombres',
 			'DNI' => 'DNI',
-			'CARGO' => 'Cargo',
-			'DIRECCION' => 'Direccion',
-			'TELEFONO' => 'Telefono',
+			'DIRECCION' => 'Dirección',
+			'TELEFONO' => 'Teléfono',
 			'EMAIL' => 'Email',
 			'CLAVE' => 'Clave',
-			'FECHAREGISTRO' => 'Fecha de registro',
+			'FECHAREGISTRO' => 'Fecha Registro',
 			'ESTADO' => 'Estado',
 		);
 	}
@@ -108,7 +112,6 @@ class Usuario extends CActiveRecord
 		$criteria->compare('APEMATERNO',$this->APEMATERNO,true);
 		$criteria->compare('NOMBRES',$this->NOMBRES,true);
 		$criteria->compare('DNI',$this->DNI,true);
-		$criteria->compare('CARGO',$this->CARGO,true);
 		$criteria->compare('DIRECCION',$this->DIRECCION,true);
 		$criteria->compare('TELEFONO',$this->TELEFONO,true);
 		$criteria->compare('EMAIL',$this->EMAIL,true);

@@ -3,13 +3,13 @@
 /* @var $model Ciclo */
 
 $this->breadcrumbs=array(
-	'Ciclos'=>array('index'),
-	'Manage',
+	'Ciclos'=>array('admin'),
+	'Administrar',
 );
 
 $this->menu=array(
-	array('label'=>'List Ciclo', 'url'=>array('index')),
-	array('label'=>'Create Ciclo', 'url'=>array('create')),
+	/* array('label'=>'List Ciclo', 'url'=>array('index')), */
+	array('label'=>'<span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Registrar Ciclo', 'url'=>array('create'), 'linkOptions'=>array('class'=>'btn-enlace')),
 );
 
 Yii::app()->clientScript->registerScript('search', "
@@ -26,14 +26,9 @@ $('.search-form form').submit(function(){
 ");
 ?>
 
-<h1>Manage Ciclos</h1>
+<h1 class="page-header">Administrar Ciclos</h1>
 
-<p>
-You may optionally enter a comparison operator (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>&lt;&gt;</b>
-or <b>=</b>) at the beginning of each of your search values to specify how the comparison should be done.
-</p>
-
-<?php echo CHtml::link('Advanced Search','#',array('class'=>'search-button')); ?>
+<?php echo CHtml::link('<span class="glyphicon glyphicon-search" aria-hidden="true"></span> Búsqueda Avanzada','#',array('class'=>'search-button')); ?>
 <div class="search-form" style="display:none">
 <?php $this->renderPartial('_search',array(
 	'model'=>$model,
@@ -45,12 +40,12 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 	'dataProvider'=>$model->search(),
 	'filter'=>$model,
 	'columns'=>array(
-		'IDCICLO',
+		//'IDCICLO',
 		'CODCICLO',
 		'DESCRIPCION',
 		'FEC_INICIO',
 		'FEC_TERMINO',
-		'FECHAREGISTRO',
+		//'FECHAREGISTRO',
 		/*
 		'ESTADO',
 		*/

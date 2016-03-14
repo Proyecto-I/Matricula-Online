@@ -73,7 +73,6 @@ class CarreraController extends Controller
 			//Genera Codigo
 			$genera = new GeneraController;
 			$codigo = $genera->creaCodigo('carrera', '6', '0');
-
 			
 			$model->attributes=$_POST['Carrera'];
 			$model->FECHAREGISTRO = date('y-m-d');

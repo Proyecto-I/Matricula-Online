@@ -3,7 +3,7 @@
 <!--<div class="span-19">-->
 <div class="col-xs-12 col-sm-12">
 	<p class="pull-left visible-xs">
-    	<button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
+    	<button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Perfil</button>
   	</p>
 
 	<div id="sidebar">
@@ -12,6 +12,7 @@
 			'title'=>'',
 		));
 		$this->widget('zii.widgets.CMenu', array(
+			'encodeLabel' => false,
 			'items'=>$this->menu,
 			'htmlOptions'=>array('class'=>'nav nav-pills'),
 		));

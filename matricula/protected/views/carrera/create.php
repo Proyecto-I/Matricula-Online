@@ -3,13 +3,13 @@
 /* @var $model Carrera */
 
 $this->breadcrumbs=array(
-	'Carreras'=>array('index'),
+	'Carreras'=>array('admin'),
 	'Registrar',
 );
 
 $this->menu=array(
-	array('label'=>'Listar Carrera', 'url'=>array('index')),
-	array('label'=>'Administrar Carrera', 'url'=>array('admin')),
+	/* array('label'=>'Listar Carrera', 'url'=>array('index')), */
+	array('label'=>'<span class="glyphicon glyphicon-th-list" aria-hidden="true"></span> Administrar Carrera', 'url'=>array('admin'), 'linkOptions'=>array('class'=>'btn-enlace')),
 );
 ?>
 

@@ -49,6 +49,14 @@
             	locale: 'es',
             	format: 'DD/MM/YYYY',
             });
+            $('#datetimepicker2').datetimepicker({
+            	locale: 'es',
+            	format: 'DD/MM/YYYY',
+            });
+            $('#datetimepicker3').datetimepicker({
+            	locale: 'es',
+            	format: 'DD/MM/YYYY',
+            });
         });
     </script>
 </head>
@@ -94,13 +102,13 @@
 									      	'itemOptions'=>array('class'=>'dropdown'),
 
 									      	'items'=>array(
-									      		array('label'=>'Alumno', 'url'=>array('/alumno/index')),
-									        	array('label'=>'Carrera', 'url'=>array('/carrera/index')),
-									        	array('label'=>'Ciclo', 'url'=>array('/ciclo/index')),
-									        	array('label'=>'Curso', 'url'=>array('/curso/index')),
-									        	array('label'=>'Profesor', 'url'=>array('/profesor/index')),
-									        	array('label'=>'Rol', 'url'=>array('/rol/index')),
-									        	array('label'=>'Usuario', 'url'=>array('/usuario/index')),
+									      		array('label'=>'Alumno', 'url'=>array('/alumno/admin')),
+									        	array('label'=>'Carrera', 'url'=>array('/carrera/admin')),
+									        	array('label'=>'Ciclo', 'url'=>array('/ciclo/admin')),
+									        	array('label'=>'Curso', 'url'=>array('/curso/admin')),
+									        	array('label'=>'Profesor', 'url'=>array('/profesor/admin')),
+									        	array('label'=>'Rol', 'url'=>array('/rol/admin')),
+									        	array('label'=>'Usuario', 'url'=>array('/usuario/admin')),
 									      	),
 										),
 
@@ -146,7 +154,7 @@
 				<div class="perfil text-center">
 					<img src="http://demo.neontheme.com/assets/images/thumb-1@2x.png" alt="" class="img-circle">
 					<p>Bienvenido</p>
-					<p class="name-user">Maritza Milla Tarazona</p>
+					<h2 class="name-user">Maritza Milla Tarazona</h2>
 					<h3>ADMINISTRADOR</h3>
 					<p>Último Acceso: <span><?php echo date('d-m-y'); ?></span></p>
 				</div>

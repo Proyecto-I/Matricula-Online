@@ -3,13 +3,13 @@
 /* @var $model Carrera */
 
 $this->breadcrumbs=array(
-	'Carreras'=>array('index'),
+	'Carreras'=>array('admin'),
 	'Administrar',
 );
 
 $this->menu=array(
-	array('label'=>'Listar Carrera', 'url'=>array('index')),
-	array('label'=>'Registrar Carrera', 'url'=>array('create')),
+	/* array('label'=>'Listar Carrera', 'url'=>array('index')), */
+	array('label'=>'<span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Registrar Carrera', 'url'=>array('create'), 'linkOptions'=>array('class'=>'btn-enlace')),
 );
 
 Yii::app()->clientScript->registerScript('search', "
@@ -26,14 +26,9 @@ $('.search-form form').submit(function(){
 ");
 ?>
 
-<h2>Administrar Carreras</h2>
-<!--
-<p>
-You may optionally enter a comparison operator (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>&lt;&gt;</b>
-or <b>=</b>) at the beginning of each of your search values to specify how the comparison should be done.
-</p>
--->
-<?php echo CHtml::link('Búsqueda Avanzada','#',array('class'=>'search-button')); ?>
+<h1 class="page-header">Administrar Carreras</h1>
+
+<?php echo CHtml::link('<span class="glyphicon glyphicon-search" aria-hidden="true"></span> Búsqueda Avanzada','#',array('class'=>'search-button')); ?>
 <div class="search-form" style="display:none">
 <?php $this->renderPartial('_search',array(
 	'model'=>$model,
@@ -42,8 +37,6 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 
 <?php $this->widget('zii.widgets.grid.CGridView', array(
 	'id'=>'carrera-grid',
-	'itemsCssClass'=>'table table-striped table-hover',
-	//'pager'=>array('htmlOptions'=>array('class'=>'pagination')),
 	'dataProvider'=>$model->search(),
 	'filter'=>$model,
 	'columns'=>array(

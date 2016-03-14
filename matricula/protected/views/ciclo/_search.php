@@ -4,7 +4,7 @@
 /* @var $form CActiveForm */
 ?>
 
-<div class="wide form">
+<div class="wide form form-horizontal">
 
 <?php $form=$this->beginWidget('CActiveForm', array(
 	'action'=>Yii::app()->createUrl($this->route),
@@ -12,42 +12,23 @@
 )); ?>
 
 	<div class="row">
-		<?php echo $form->label($model,'IDCICLO'); ?>
-		<?php echo $form->textField($model,'IDCICLO',array('size'=>10,'maxlength'=>10)); ?>
+		<?php echo $form->label($model,'CODCICLO',array('class'=>'col-sm-2 control-label')); ?>
+		<div class="col-sm-3">
+			<?php echo $form->textField($model,'CODCICLO',array('class'=>'form-control','size'=>8,'maxlength'=>8)); ?>
+		</div>
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'CODCICLO'); ?>
-		<?php echo $form->textField($model,'CODCICLO',array('size'=>8,'maxlength'=>8)); ?>
+		<?php echo $form->label($model,'DESCRIPCION',array('class'=>'col-sm-2 control-label')); ?>
+		<div class="col-sm-10">
+			<?php echo $form->textField($model,'DESCRIPCION',array('class'=>'form-control','size'=>10,'maxlength'=>10)); ?>
+		</div>
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'DESCRIPCION'); ?>
-		<?php echo $form->textField($model,'DESCRIPCION',array('size'=>10,'maxlength'=>10)); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'FEC_INICIO'); ?>
-		<?php echo $form->textField($model,'FEC_INICIO'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'FEC_TERMINO'); ?>
-		<?php echo $form->textField($model,'FEC_TERMINO'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'FECHAREGISTRO'); ?>
-		<?php echo $form->textField($model,'FECHAREGISTRO'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'ESTADO'); ?>
-		<?php echo $form->textField($model,'ESTADO',array('size'=>1,'maxlength'=>1)); ?>
-	</div>
-
-	<div class="row buttons">
-		<?php echo CHtml::submitButton('Search'); ?>
+		<div class="col-sm-offset-2 col-sm-10">
+			<?php echo CHtml::submitButton('Buscar',array('class'=>'btn btn-primary')); ?>
+		</div>
 	</div>
 
 <?php $this->endWidget(); ?>

@@ -1,5 +1,6 @@
 <?php
 include('GeneraCodigo.php');
+
 class UsuarioController extends Controller
 {
 	/**
@@ -63,23 +64,19 @@ class UsuarioController extends Controller
 	public function actionCreate()
 	{
 		$model=new Usuario;
-
-		$genera=new GeneraController;
-		$codigo=$genera->creaCodigo('usuario', '5', '0');
-		echo $codigo;
+		//Genera Codigo
+		$genera = new GeneraController;
+		$codigo = $genera->creaCodigo('usuario', '6', '0');
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
 		if(isset($_POST['Usuario']))
 		{
-
-			
-
 			$model->attributes=$_POST['Usuario'];
 			$model->FECHAREGISTRO = date('y-m-d');
 			$model->CODUSUARIO = $codigo;
-
+			
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->IDUSUARIO));
 		}

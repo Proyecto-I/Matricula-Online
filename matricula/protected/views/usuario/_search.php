@@ -4,7 +4,7 @@
 /* @var $form CActiveForm */
 ?>
 
-<div class="wide form">
+<div class="wide form form-horizontal">
 
 <?php $form=$this->beginWidget('CActiveForm', array(
 	'action'=>Yii::app()->createUrl($this->route),
@@ -12,77 +12,51 @@
 )); ?>
 
 	<div class="row">
-		<?php echo $form->label($model,'IDUSUARIO'); ?>
-		<?php echo $form->textField($model,'IDUSUARIO',array('size'=>10,'maxlength'=>10)); ?>
+		<?php echo $form->label($model,'ROL',array('class'=>'col-sm-2 control-label')); ?>
+		<div class="col-sm-3">
+			<?php echo $form->dropDownList($model,'IDROL',CHtml::listData(Rol::model()->findAll(array('order' => 'descripcion ASC')), 'IDROL', 'NOMBRE'),array('class'=>'form-control','empty'=>'Seleccione Rol')); ?>
+		</div>
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'IDROL'); ?>
-		<?php echo $form->textField($model,'IDROL',array('size'=>10,'maxlength'=>10)); ?>
+		<?php echo $form->label($model,'CODUSUARIO',array('class'=>'col-sm-2 control-label')); ?>
+		<div class="col-sm-3">
+			<?php echo $form->textField($model,'CODUSUARIO',array('class'=>'form-control','size'=>8,'maxlength'=>8)); ?>
+		</div>
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'CODUSUARIO'); ?>
-		<?php echo $form->textField($model,'CODUSUARIO',array('size'=>8,'maxlength'=>8)); ?>
+		<?php echo $form->label($model,'APEPATERNO',array('class'=>'col-sm-2 control-label')); ?>
+		<div class="col-sm-10">
+			<?php echo $form->textField($model,'APEPATERNO',array('class'=>'form-control','size'=>50,'maxlength'=>50)); ?>
+		</div>
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'APEPATERNO'); ?>
-		<?php echo $form->textField($model,'APEPATERNO',array('size'=>50,'maxlength'=>50)); ?>
+		<?php echo $form->label($model,'APEMATERNO',array('class'=>'col-sm-2 control-label')); ?>
+		<div class="col-sm-10">
+			<?php echo $form->textField($model,'APEMATERNO',array('class'=>'form-control','size'=>50,'maxlength'=>50)); ?>
+		</div>
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'APEMATERNO'); ?>
-		<?php echo $form->textField($model,'APEMATERNO',array('size'=>50,'maxlength'=>50)); ?>
+		<?php echo $form->label($model,'NOMBRES',array('class'=>'col-sm-2 control-label')); ?>
+		<div class="col-sm-10">
+			<?php echo $form->textField($model,'NOMBRES',array('class'=>'form-control','size'=>50,'maxlength'=>50)); ?>
+		</div>
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'NOMBRES'); ?>
-		<?php echo $form->textField($model,'NOMBRES',array('size'=>50,'maxlength'=>50)); ?>
+		<?php echo $form->label($model,'DNI',array('class'=>'col-sm-2 control-label')); ?>
+		<div class="col-sm-3">
+			<?php echo $form->textField($model,'DNI',array('class'=>'form-control','size'=>10,'maxlength'=>10)); ?>
+		</div>
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'DNI'); ?>
-		<?php echo $form->textField($model,'DNI',array('size'=>10,'maxlength'=>10)); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'CARGO'); ?>
-		<?php echo $form->textField($model,'CARGO',array('size'=>50,'maxlength'=>50)); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'DIRECCION'); ?>
-		<?php echo $form->textField($model,'DIRECCION',array('size'=>60,'maxlength'=>100)); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'TELEFONO'); ?>
-		<?php echo $form->textField($model,'TELEFONO',array('size'=>20,'maxlength'=>20)); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'EMAIL'); ?>
-		<?php echo $form->textField($model,'EMAIL',array('size'=>50,'maxlength'=>50)); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'CLAVE'); ?>
-		<?php echo $form->textField($model,'CLAVE',array('size'=>20,'maxlength'=>20)); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'FECHAREGISTRO'); ?>
-		<?php echo $form->textField($model,'FECHAREGISTRO'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'ESTADO'); ?>
-		<?php echo $form->textField($model,'ESTADO',array('size'=>1,'maxlength'=>1)); ?>
-	</div>
-
-	<div class="row buttons">
-		<?php echo CHtml::submitButton('Search'); ?>
+		<div class="col-sm-offset-2 col-sm-10">
+			<?php echo CHtml::submitButton('Buscar',array('class'=>'btn btn-primary')); ?>
+		</div>
 	</div>
 
 <?php $this->endWidget(); ?>

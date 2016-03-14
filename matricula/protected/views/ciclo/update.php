@@ -3,19 +3,19 @@
 /* @var $model Ciclo */
 
 $this->breadcrumbs=array(
-	'Ciclos'=>array('index'),
-	$model->IDCICLO=>array('view','id'=>$model->IDCICLO),
-	'Update',
+	'Ciclos'=>array('admin'),
+	$model->CODCICLO=>array('view','id'=>$model->IDCICLO),
+	'Actualizar',
 );
 
 $this->menu=array(
-	array('label'=>'List Ciclo', 'url'=>array('index')),
-	array('label'=>'Create Ciclo', 'url'=>array('create')),
-	array('label'=>'View Ciclo', 'url'=>array('view', 'id'=>$model->IDCICLO)),
-	array('label'=>'Manage Ciclo', 'url'=>array('admin')),
+	/* array('label'=>'List Ciclo', 'url'=>array('index')), */
+	array('label'=>'<span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Registrar Ciclo', 'url'=>array('create'), 'linkOptions'=>array('class'=>'btn-enlace')),
+	array('label'=>'<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> Ver Ciclo', 'url'=>array('view', 'id'=>$model->IDCICLO), 'linkOptions'=>array('class'=>'btn-enlace')),
+	array('label'=>'<span class="glyphicon glyphicon-th-list" aria-hidden="true"></span> Administrar Ciclo', 'url'=>array('admin'), 'linkOptions'=>array('class'=>'btn-enlace')),
 );
 ?>
 
-<h1>Update Ciclo <?php echo $model->IDCICLO; ?></h1>
+<h1 class="page-header">Actualizar Ciclo <?php echo $model->CODCICLO; ?></h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

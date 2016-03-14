@@ -15,7 +15,7 @@
 	'enableAjaxValidation'=>false,
 )); ?>
 
-	<p class="note">Los campos com <span class="required">*</span> son requeridos.</p>
+	<p class="note small">Los campos com <span class="required">*</span> son requeridos.</p>
 
 	<?php //echo $form->errorSummary($model); ?>
 
@@ -56,7 +56,7 @@
 		</div>
 	</div>
 
-	<div class="form-group buttons">
+	<div class="form-group">
 		<div class="col-sm-offset-2 col-sm-10">
 			<?php echo CHtml::submitButton($model->isNewRecord ? 'Registrar' : 'Actualizar',array('class'=>'btn btn-primary')); ?>
 		</div>
