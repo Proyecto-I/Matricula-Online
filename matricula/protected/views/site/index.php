@@ -4,17 +4,33 @@
 $this->pageTitle=Yii::app()->name;
 ?>
 
-<h1>Welcome to <i><?php echo CHtml::encode(Yii::app()->name); ?></i></h1>
+<h1>Bienvenido al <i><?php echo CHtml::encode(Yii::app()->name); ?></i></h1>
 
-<p>Congratulations! You have successfully created your Yii application.</p>
+<h2 class="control">Panel de Control</h2>
 
-<p>You may change the content of this page by modifying the following two files:</p>
-<ul>
-	<li>View file: <code><?php echo __FILE__; ?></code></li>
-	<li>Layout file: <code><?php echo $this->getLayoutFile('main'); ?></code></li>
-</ul>
-
-<p>For more details on how to further develop this application, please read
-the <a href="http://www.yiiframework.com/doc/">documentation</a>.
-Feel free to ask in the <a href="http://www.yiiframework.com/forum/">forum</a>,
-should you have any questions.</p>
+<div class="panel-control">
+	<div class="color-swatch brand-primary">
+		<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+		<span class="glyphicon-class">Alumno</span>
+	</div>
+	<div class="color-swatch brand-primary">
+		<span class="glyphicon glyphicon-check" aria-hidden="true"></span>
+		<span class="glyphicon-class">Carrera</span>
+	</div>
+	<div class="color-swatch brand-primary">
+		<span class="glyphicon glyphicon-th-large" aria-hidden="true"></span>
+		<span class="glyphicon-class">Ciclo</span>
+	</div>
+	<div class="color-swatch brand-primary">
+		<span class="glyphicon glyphicon-book" aria-hidden="true"></span>
+		<span class="glyphicon-class">Curso</span>
+	</div>
+	<div class="color-swatch brand-primary">
+		<span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span>
+		<span class="glyphicon-class">Profesor</span>
+	</div>
+	<div class="color-swatch brand-primary">
+		<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+		<span class="glyphicon-class">Usuario</span>
+	</div>
+</div>

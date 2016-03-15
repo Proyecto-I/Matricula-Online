@@ -10,6 +10,9 @@ return array(
 	'name'=>'Sistema de Matrícula Online',
 	'language' => 'es',
 
+	// vista por defecto
+	'defaultController'=>'site/login',
+
 	// preloading 'log' component
 	'preload'=>array('log'),
 
@@ -34,9 +37,12 @@ return array(
 	// application components
 	'components'=>array(
 
+		'loginLayout'=>'//layouts/column1',
+
 		'user'=>array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
+			'loginUrl'=>array('site/index'),
 		),
 
 		// uncomment the following to enable URLs in path-format
