@@ -63,11 +63,11 @@ class Ciclo extends CActiveRecord
 	{
 		return array(
 			'IDCICLO' => 'Idciclo',
-			'CODCICLO' => 'Codciclo',
-			'DESCRIPCION' => 'Descripcion',
-			'FEC_INICIO' => 'Fec Inicio',
-			'FEC_TERMINO' => 'Fec Termino',
-			'FECHAREGISTRO' => 'Fecharegistro',
+			'CODCICLO' => 'Cod. Ciclo',
+			'DESCRIPCION' => 'Descripción',
+			'FEC_INICIO' => 'Fecha Inicio',
+			'FEC_TERMINO' => 'Fecha Termino',
+			'FECHAREGISTRO' => 'Fecha Registro',
 			'ESTADO' => 'Estado',
 		);
 	}

@@ -1,26 +1,33 @@
 <?php
 
 /**
- * This is the model class for table "carrera".
+ * This is the model class for table "cursoprogramado".
  *
- * The followings are the available columns in table 'carrera':
- * @property string $IDCARRERA
- * @property string $CODCARRERA
- * @property string $DESCRIPCION
+ * The followings are the available columns in table 'cursoprogramado':
+ * @property string $IDCURSO_PROG
+ * @property string $IDCURSO
+ * @property string $IDCICLO
+ * @property string $IDPROFESOR
+ * @property string $VACANTES
+ * @property string $MATRICULADOS
+ * @property string $HORARIO
  * @property string $FECHAREGISTRO
  * @property string $ESTADO
  *
  * The followings are the available model relations:
- * @property Alumno[] $alumnos
+ * @property Ciclo $iDCICLO
+ * @property Curso $iDCURSO
+ * @property Profesor $iDPROFESOR
+ * @property Matricula[] $matriculas
  */
-class Carrera extends CActiveRecord
+class Cursoprogramado extends CActiveRecord
 {
 	/**
 	 * @return string the associated database table name
 	 */
 	public function tableName()
 	{
-		return 'carrera';
+		return 'cursoprogramado';
 	}
 
 	/**
@@ -31,13 +38,14 @@ class Carrera extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('DESCRIPCION, FECHAREGISTRO, ESTADO', 'required'),
-			array('CODCARRERA', 'length', 'max'=>8),
-			array('DESCRIPCION', 'length', 'max'=>100),
+			array('IDCURSO, IDCICLO, IDPROFESOR, VACANTES, MATRICULADOS, HORARIO, FECHAREGISTRO, ESTADO', 'required'),
+			array('IDCURSO, IDCICLO, IDPROFESOR', 'length', 'max'=>10),
+			array('VACANTES, MATRICULADOS', 'length', 'max'=>3),
+			array('HORARIO', 'length', 'max'=>100),
 			array('ESTADO', 'length', 'max'=>1),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('IDCARRERA, CODCARRERA, DESCRIPCION, FECHAREGISTRO, ESTADO', 'safe', 'on'=>'search'),
+			array('IDCURSO_PROG, IDCURSO, IDCICLO, IDPROFESOR, VACANTES, MATRICULADOS, HORARIO, FECHAREGISTRO, ESTADO', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -49,7 +57,10 @@ class Carrera extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'alumnos' => array(self::HAS_MANY, 'Alumno', 'IDCARRERA'),
+			'iDCICLO' => array(self::BELONGS_TO, 'Ciclo', 'IDCICLO'),
+			'iDCURSO' => array(self::BELONGS_TO, 'Curso', 'IDCURSO'),
+			'iDPROFESOR' => array(self::BELONGS_TO, 'Profesor', 'IDPROFESOR'),
+			'matriculas' => array(self::HAS_MANY, 'Matricula', 'IDCURSO_PROG'),
 		);
 	}
 
@@ -59,9 +70,13 @@ class Carrera extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'IDCARRERA' => 'Idcarrera',
-			'CODCARRERA' => 'Cod. Carrera',
-			'DESCRIPCION' => 'Descripción',
+			'IDCURSO_PROG' => 'Idcurso Prog',
+			'IDCURSO' => 'Curso',
+			'IDCICLO' => 'Ciclo',
+			'IDPROFESOR' => 'Profesor',
+			'VACANTES' => 'Vacantes',
+			'MATRICULADOS' => 'Matriculados',
+			'HORARIO' => 'Horario',
 			'FECHAREGISTRO' => 'Fecha Registro',
 			'ESTADO' => 'Estado',
 		);
@@ -85,9 +100,13 @@ class Carrera extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('IDCARRERA',$this->IDCARRERA,true);
-		$criteria->compare('CODCARRERA',$this->CODCARRERA,true);
-		$criteria->compare('DESCRIPCION',$this->DESCRIPCION,true);
+		$criteria->compare('IDCURSO_PROG',$this->IDCURSO_PROG,true);
+		$criteria->compare('IDCURSO',$this->IDCURSO,true);
+		$criteria->compare('IDCICLO',$this->IDCICLO,true);
+		$criteria->compare('IDPROFESOR',$this->IDPROFESOR,true);
+		$criteria->compare('VACANTES',$this->VACANTES,true);
+		$criteria->compare('MATRICULADOS',$this->MATRICULADOS,true);
+		$criteria->compare('HORARIO',$this->HORARIO,true);
 		$criteria->compare('FECHAREGISTRO',$this->FECHAREGISTRO,true);
 		$criteria->compare('ESTADO',$this->ESTADO,true);
 
@@ -100,7 +119,7 @@ class Carrera extends CActiveRecord
 	 * Returns the static model of the specified AR class.
 	 * Please note that you should have this exact method in all your CActiveRecord descendants!
 	 * @param string $className active record class name.
-	 * @return Carrera the static model class
+	 * @return Cursoprogramado the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{

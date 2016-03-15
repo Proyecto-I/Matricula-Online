@@ -22,7 +22,7 @@
 	<div class="form-group">
 		<?php echo $form->labelEx($model,'CODCURSO',array('class'=>'col-sm-2 control-label')); ?>
 		<div class="col-sm-3">
-			<?php echo $form->textField($model,'CODCURSO',array('class'=>'form-control','size'=>8,'maxlength'=>8)); ?>
+			<?php echo $form->textField($model,'CODCURSO',array('class'=>'form-control','size'=>8,'maxlength'=>8,'disabled'=>'true')); ?>
 			<?php echo $form->error($model,'CODCURSO'); ?>
 		</div>
 	</div>

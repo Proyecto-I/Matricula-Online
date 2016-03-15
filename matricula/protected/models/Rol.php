@@ -63,10 +63,10 @@ class Rol extends CActiveRecord
 	{
 		return array(
 			'IDROL' => 'Idrol',
-			'CODROL' => 'Codrol',
+			'CODROL' => 'Cod. Rol',
 			'NOMBRE' => 'Nombre',
-			'DESCRIPCION' => 'Descripcion',
-			'FECHAREGISTRO' => 'Fecharegistro',
+			'DESCRIPCION' => 'Descripción',
+			'FECHAREGISTRO' => 'Fecha Registro',
 			'ESTADO' => 'Estado',
 		);
 	}

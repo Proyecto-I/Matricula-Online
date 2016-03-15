@@ -114,7 +114,7 @@
 
 										array(
 											'label'=>'Programación de Curso',
-											'url'=>array('/site/page',
+											'url'=>array('/cursoprogramado/admin',
 											'view'=>'about')
 										),
 										array(

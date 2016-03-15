@@ -70,16 +70,16 @@ class Profesor extends CActiveRecord
 	{
 		return array(
 			'IDPROFESOR' => 'Idprofesor',
-			'CODPROFESOR' => 'Codprofesor',
-			'APEPATERNO' => 'Apepaterno',
-			'APEMATERNO' => 'Apematerno',
+			'CODPROFESOR' => 'Cod. Profesor',
+			'APEPATERNO' => 'Ape. Paterno',
+			'APEMATERNO' => 'Ape. Materno',
 			'NOMBRES' => 'Nombres',
-			'DNI' => 'Dni',
-			'DIRECCION' => 'Direccion',
-			'TELEFONO' => 'Telefono',
+			'DNI' => 'DNI',
+			'DIRECCION' => 'Dirección',
+			'TELEFONO' => 'Teléfono',
 			'EMAIL' => 'Email',
 			'CLAVE' => 'Clave',
-			'FECHAREGISTRO' => 'Fecharegistro',
+			'FECHAREGISTRO' => 'Fecha Registro',
 			'ESTADO' => 'Estado',
 		);
 	}

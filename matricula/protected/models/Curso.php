@@ -62,10 +62,10 @@ class Curso extends CActiveRecord
 	{
 		return array(
 			'IDCURSO' => 'Idcurso',
-			'CODCURSO' => 'Codcurso',
-			'DESCRIPCION' => 'Descripcion',
+			'CODCURSO' => 'Cod. Curso',
+			'DESCRIPCION' => 'Descripción',
 			'CREDITOS' => 'Creditos',
-			'FECHAREGISTRO' => 'Fecharegistro',
+			'FECHAREGISTRO' => 'Fecha Registro',
 			'ESTADO' => 'Estado',
 		);
 	}
