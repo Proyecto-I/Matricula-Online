@@ -319,6 +319,10 @@ div.form {
   color: #fff;
 }
 
+input:-webkit-autofill {
+  background-color: transparent !important;
+}
+
 /* PANEL DE CONTROL */
 h2.control {
   font-family: "montserratregular",Helvetica,Arial,sans-serif;

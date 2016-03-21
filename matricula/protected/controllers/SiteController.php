@@ -32,6 +32,7 @@ class SiteController extends Controller
 		$this->render('index');
 
 		$this->layout='//layouts/column2';
+
 	}
 
 	/**

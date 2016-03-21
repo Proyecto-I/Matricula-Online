@@ -53,7 +53,7 @@
 
 									array(
 										'label'=>'Programación de Curso',
-										'url'=>array('/cursoprogramado/admin',
+										'url'=>array('/cursoprogramado/index',
 										'view'=>'about')
 									),
 									array(

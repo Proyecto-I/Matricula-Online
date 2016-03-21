@@ -17,17 +17,21 @@ class UserIdentity extends CUserIdentity
 	 */
 	public function authenticate()
 	{
-		$users=array(
-			// username => password
-			'demo'=>'demo',
-			'admin'=>'admin',
-		);
-		if(!isset($users[$this->username]))
-			$this->errorCode=self::ERROR_USERNAME_INVALID;
-		elseif($users[$this->username]!==$this->password)
-			$this->errorCode=self::ERROR_PASSWORD_INVALID;
-		else
-			$this->errorCode=self::ERROR_NONE;
-		return !$this->errorCode;
+		$conexion = Yii::app()->db;
+
+		$consulta = "SELECT CODUSUARIO, CLAVE FROM usuario ";
+		$consulta .= "WHERE CODUSUARIO='".$this->username."' AND ";
+		$consulta .= "CLAVE='".$this->password."' AND ESTADO='A'";
+
+		$resultado = $conexion->createCommand($consulta)->query();
+
+		$resultado->bindColumn(1, $this->username);
+		$resultado->bindColumn(2, $this->password);
+
+		while($resultado->read()!==false)
+		{
+			$this->errorCode = self::ERROR_NONE;
+			return !$this->errorCode;
+		}
 	}
 }
