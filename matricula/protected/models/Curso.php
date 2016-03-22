@@ -110,4 +110,21 @@ class Curso extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+
+
+	public function actionListadodinamico()
+	{
+		if (isset($_POST['Usuario']['IDCICLO']))
+		{
+			$data = Ciudad::model()->findAll(array(
+		   		'condition'=>'IDCICLO='.$_POST['Usuario']['IDCICLO'],
+		   		'order'=>'DESCRIPCION',
+		  	));
+
+		   	$data=CHtml::listData($data,'IDCURSO','DESCRIPCION');
+		  
+		  	foreach($data as $value=>$name)
+		   	echo CHtml::tag('option', array('value'=>$value), CHtml::encode($name), true);
+		}
+	}
 }

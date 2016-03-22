@@ -25,6 +25,8 @@ $this->menu=array(
 		'IDCURSO',
 		'IDCICLO',
 		'IDPROFESOR',
+		'IDCARRERA',
+		'IDSECCION',
 		'VACANTES',
 		'MATRICULADOS',
 		'HORARIO',

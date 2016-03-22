@@ -21,6 +21,14 @@
 	<?php echo CHtml::encode($data->IDPROFESOR); ?>
 	<br />
 
+	<b><?php echo CHtml::encode($data->getAttributeLabel('IDCARRERA')); ?>:</b>
+	<?php echo CHtml::encode($data->IDCARRERA); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('IDSECCION')); ?>:</b>
+	<?php echo CHtml::encode($data->IDSECCION); ?>
+	<br />
+
 	<b><?php echo CHtml::encode($data->getAttributeLabel('VACANTES')); ?>:</b>
 	<?php echo CHtml::encode($data->VACANTES); ?>
 	<br />

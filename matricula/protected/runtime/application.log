@@ -3725,3 +3725,353 @@ Stack trace:
 REQUEST_URI=/Matricula-Online/matricula/cursoprogramado/admin?view=about
 HTTP_REFERER=http://localhost/Matricula-Online/matricula/site/index
 ---
+2016/03/22 02:42:31 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(291): CFilterChain->run()
+#6 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('admin')
+#8 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('curso/admin')
+#9 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/Matricula-Online/matricula/curso/admin
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/cursoprogramado/index?view=about
+---
+2016/03/22 02:49:47 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(291): CFilterChain->run()
+#6 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('admin')
+#8 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('alumno/admin')
+#9 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/Matricula-Online/matricula/alumno/admin
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/alumno
+---
+2016/03/22 02:50:00 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(291): CFilterChain->run()
+#6 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('admin')
+#8 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('alumno/admin')
+#9 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/Matricula-Online/matricula/alumno/admin
+---
+2016/03/22 02:51:36 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(291): CFilterChain->run()
+#6 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('admin')
+#8 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('curso/admin')
+#9 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/Matricula-Online/matricula/curso/admin
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/cursoprogramado/index?view=about
+---
+2016/03/22 03:02:11 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(291): CFilterChain->run()
+#6 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('admin')
+#8 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('curso/admin')
+#9 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/Matricula-Online/matricula/curso/admin
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/curso/3
+---
+2016/03/22 04:25:54 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(291): CFilterChain->run()
+#6 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('admin')
+#8 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('seccion/admin')
+#9 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/Matricula-Online/matricula/seccion/admin
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/cursoprogramado/create
+---
+2016/03/22 05:30:11 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(291): CFilterChain->run()
+#6 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('admin')
+#8 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('cursoprogramado...')
+#9 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/Matricula-Online/matricula/cursoprogramado/admin
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/cursoprogramado/create
+---
+2016/03/22 05:30:19 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(291): CFilterChain->run()
+#6 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('admin')
+#8 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('cursoprogramado...')
+#9 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/Matricula-Online/matricula/cursoprogramado/admin
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/cursoprogramado/
+---
+2016/03/22 05:47:22 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(291): CFilterChain->run()
+#6 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('admin')
+#8 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('curso/admin')
+#9 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/Matricula-Online/matricula/curso/admin
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/cursoprogramado/create
+---
+2016/03/22 05:47:34 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Users/Maritza/Sitios/Matricula-Online/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(291): CFilterChain->run()
+#6 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('admin')
+#8 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('curso/admin')
+#9 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/Matricula-Online/matricula/curso/admin
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/curso/
+---
+2016/03/22 06:54:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "listadodinamico" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('listadodinamico')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('listadodinamico')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('curso/listadodi...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/curso/listadodinamico
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/cursoprogramado/create
+---
+2016/03/22 06:55:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "listadodinamico" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('listadodinamico')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('listadodinamico')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('curso/listadodi...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/curso/listadodinamico
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/cursoprogramado/create
+---
+2016/03/22 07:21:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "listadodinamico" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('listadodinamico')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('listadodinamico')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('curso/listadodi...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/curso/listadodinamico
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/cursoprogramado/create
+---
+2016/03/22 07:23:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "listadodinamico" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('listadodinamico')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('listadodinamico')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('curso/listadodi...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/curso/listadodinamico
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/cursoprogramado/create
+---
+2016/03/22 07:23:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "listadodinamico" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('listadodinamico')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('listadodinamico')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('curso/listadodi...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/curso/listadodinamico
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/cursoprogramado/create
+---
+2016/03/22 07:27:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "listadodinamico" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('listadodinamico')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('listadodinamico')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('curso/listadodi...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/curso/listadodinamico
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/cursoprogramado/create
+---
+2016/03/22 07:27:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "listadodinamico" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('listadodinamico')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('listadodinamico')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('curso/listadodi...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/curso/listadodinamico
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/cursoprogramado/create
+---
+2016/03/22 07:28:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "listadodinamico" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('listadodinamico')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('listadodinamico')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('curso/listadodi...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/curso/listadodinamico
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/cursoprogramado/create
+---
+2016/03/22 07:28:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "listadodinamico" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('listadodinamico')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('listadodinamico')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('curso/listadodi...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/curso/listadodinamico
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/cursoprogramado/create
+---
+2016/03/22 07:29:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "listadodinamico" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('listadodinamico')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('listadodinamico')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('curso/listadodi...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/curso/listadodinamico
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/cursoprogramado/create
+---
+2016/03/22 07:29:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "listadodinamico" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('listadodinamico')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('listadodinamico')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('curso/listadodi...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/curso/listadodinamico
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/cursoprogramado/create
+---
+2016/03/22 07:31:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "listadodinamico" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('listadodinamico')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('listadodinamico')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('curso/listadodi...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/curso/listadodinamico
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/cursoprogramado/create
+---
+2016/03/22 07:31:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "listadodinamico" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('listadodinamico')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('listadodinamico')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('curso/listadodi...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/curso/listadodinamico
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/cursoprogramado/create
+---
+2016/03/22 07:34:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "listadodinamico" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('listadodinamico')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('listadodinamico')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('curso/listadodi...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/curso/listadodinamico
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/cursoprogramado/create
+---
+2016/03/22 08:02:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/js/jquery.min.map
+---
+2016/03/22 08:02:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Matricula-Online/matricula/js/jquery.min.map
+---
+2016/03/22 08:02:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "listadodinamico" solicitada.' in /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Maritza/Sitios/Matricula-Online/framework/web/CController.php(270): CController->missingAction('listadodinamico')
+#1 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(282): CController->run('listadodinamico')
+#2 /Users/Maritza/Sitios/Matricula-Online/framework/web/CWebApplication.php(141): CWebApplication->runController('curso/listadodi...')
+#3 /Users/Maritza/Sitios/Matricula-Online/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Users/Maritza/Sitios/Matricula-Online/matricula/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Matricula-Online/matricula/curso/listadodinamico
+HTTP_REFERER=http://localhost/Matricula-Online/matricula/cursoprogramado/create
+---

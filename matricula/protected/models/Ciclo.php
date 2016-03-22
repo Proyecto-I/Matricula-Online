@@ -113,4 +113,30 @@ class Ciclo extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+
+	/* COMBO DEPENDIENTE */
+	public static function items($tipo)
+	{
+		if(!isset(self::$_items[$tipo]))
+			self::loadItems($tipo);
+		return self::$_items[$tipo];
+	}
+
+	public static function item($tipo, $id)
+	{
+		if(!isset(self::$_items[$tipo]))
+			self::loadItems($tipo);
+		return isset(self::$_items[$tipo][$id]) ? self::$_items[$tipo][$id]:false;
+	}
+
+	private static function loadItems($tipo)
+	{
+		self::$_items[$tipo]=array();
+		$models=self::model()->findAll(array(
+			'order'=>'DESCRIPCION'.$tipo,
+			));
+		foreach($models as $model)
+			self::$_items[$tipo][$model->id]=$model->DESCRIPCION;
+	}
+
 }

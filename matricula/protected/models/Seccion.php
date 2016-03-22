@@ -1,33 +1,22 @@
 <?php
 
 /**
- * This is the model class for table "cursoprogramado".
+ * This is the model class for table "seccion".
  *
- * The followings are the available columns in table 'cursoprogramado':
- * @property string $IDCURSO_PROG
- * @property string $IDCURSO
- * @property string $IDCICLO
- * @property string $IDPROFESOR
- * @property string $VACANTES
- * @property string $MATRICULADOS
- * @property string $HORARIO
+ * The followings are the available columns in table 'seccion':
+ * @property string $IDSECCION
+ * @property string $CODSECCION
  * @property string $FECHAREGISTRO
  * @property string $ESTADO
- *
- * The followings are the available model relations:
- * @property Ciclo $iDCICLO
- * @property Curso $iDCURSO
- * @property Profesor $iDPROFESOR
- * @property Matricula[] $matriculas
  */
-class Cursoprogramado extends CActiveRecord
+class Seccion extends CActiveRecord
 {
 	/**
 	 * @return string the associated database table name
 	 */
 	public function tableName()
 	{
-		return 'cursoprogramado';
+		return 'seccion';
 	}
 
 	/**
@@ -38,14 +27,12 @@ class Cursoprogramado extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('IDCURSO, IDCICLO, IDPROFESOR, IDCARRERA, IDSECCION, VACANTES, MATRICULADOS, HORARIO, FECHAREGISTRO, ESTADO', 'required'),
-			array('IDCURSO, IDCICLO, IDPROFESOR, IDCARRERA, IDSECCION', 'length', 'max'=>10),
-			array('VACANTES, MATRICULADOS', 'length', 'max'=>3),
-			array('HORARIO', 'length', 'max'=>100),
+			array('CODSECCION, FECHAREGISTRO, ESTADO', 'required'),
+			array('CODSECCION', 'length', 'max'=>8),
 			array('ESTADO', 'length', 'max'=>1),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('IDCURSO_PROG, IDCURSO, IDCICLO, IDPROFESOR, IDCARRERA, IDSECCION, VACANTES, MATRICULADOS, HORARIO, FECHAREGISTRO, ESTADO', 'safe', 'on'=>'search'),
+			array('IDSECCION, CODSECCION, FECHAREGISTRO, ESTADO', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -57,10 +44,6 @@ class Cursoprogramado extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'iDCICLO' => array(self::BELONGS_TO, 'Ciclo', 'IDCICLO'),
-			'iDCURSO' => array(self::BELONGS_TO, 'Curso', 'IDCURSO'),
-			'iDPROFESOR' => array(self::BELONGS_TO, 'Profesor', 'IDPROFESOR'),
-			'matriculas' => array(self::HAS_MANY, 'Matricula', 'IDCURSO_PROG'),
 		);
 	}
 
@@ -70,16 +53,9 @@ class Cursoprogramado extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'IDCURSO_PROG' => 'Idcurso Prog',
-			'IDCURSO' => 'Curso',
-			'IDCICLO' => 'Ciclo',
-			'IDPROFESOR' => 'Profesor',
-			'IDCARRERA' => 'Carrera',
-			'IDSECCION' => 'Sección',
-			'VACANTES' => 'Vacantes',
-			'MATRICULADOS' => 'Matriculados',
-			'HORARIO' => 'Horario',
-			'FECHAREGISTRO' => 'Fecha Registro',
+			'IDSECCION' => 'Idseccion',
+			'CODSECCION' => 'Codseccion',
+			'FECHAREGISTRO' => 'Fecharegistro',
 			'ESTADO' => 'Estado',
 		);
 	}
@@ -102,13 +78,8 @@ class Cursoprogramado extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('IDCURSO_PROG',$this->IDCURSO_PROG,true);
-		$criteria->compare('IDCURSO',$this->IDCURSO,true);
-		$criteria->compare('IDCICLO',$this->IDCICLO,true);
-		$criteria->compare('IDPROFESOR',$this->IDPROFESOR,true);
-		$criteria->compare('VACANTES',$this->VACANTES,true);
-		$criteria->compare('MATRICULADOS',$this->MATRICULADOS,true);
-		$criteria->compare('HORARIO',$this->HORARIO,true);
+		$criteria->compare('IDSECCION',$this->IDSECCION,true);
+		$criteria->compare('CODSECCION',$this->CODSECCION,true);
 		$criteria->compare('FECHAREGISTRO',$this->FECHAREGISTRO,true);
 		$criteria->compare('ESTADO',$this->ESTADO,true);
 
@@ -121,7 +92,7 @@ class Cursoprogramado extends CActiveRecord
 	 * Returns the static model of the specified AR class.
 	 * Please note that you should have this exact method in all your CActiveRecord descendants!
 	 * @param string $className active record class name.
-	 * @return Cursoprogramado the static model class
+	 * @return Seccion the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{

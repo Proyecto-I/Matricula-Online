@@ -32,6 +32,16 @@
 	</div>
 
 	<div class="row">
+		<?php echo $form->label($model,'IDCARRERA'); ?>
+		<?php echo $form->textField($model,'IDCARRERA',array('size'=>10,'maxlength'=>10)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'IDSECCION'); ?>
+		<?php echo $form->textField($model,'IDSECCION',array('size'=>10,'maxlength'=>10)); ?>
+	</div>
+
+	<div class="row">
 		<?php echo $form->label($model,'VACANTES'); ?>
 		<?php echo $form->textField($model,'VACANTES',array('size'=>3,'maxlength'=>3)); ?>
 	</div>

@@ -106,4 +106,6 @@ class Carrera extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+
+
 }

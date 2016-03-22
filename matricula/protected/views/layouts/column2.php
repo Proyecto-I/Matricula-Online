@@ -45,6 +45,7 @@
 								        	array('label'=>'Carrera', 'url'=>array('/carrera/admin')),
 								        	array('label'=>'Ciclo', 'url'=>array('/ciclo/admin')),
 								        	array('label'=>'Curso', 'url'=>array('/curso/admin')),
+								        	array('label'=>'Sección', 'url'=>array('/seccion/admin')),
 								        	array('label'=>'Profesor', 'url'=>array('/profesor/admin')),
 								        	array('label'=>'Rol', 'url'=>array('/rol/admin')),
 								        	array('label'=>'Usuario', 'url'=>array('/usuario/admin')),
