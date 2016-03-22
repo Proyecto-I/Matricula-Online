@@ -25,5 +25,6 @@ class GeneraController
 			}
 		return $codigo;
 	}
+
 }
 ?>

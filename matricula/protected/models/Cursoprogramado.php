@@ -38,7 +38,7 @@ class Cursoprogramado extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('IDCURSO, IDCICLO, IDPROFESOR, IDCARRERA, IDSECCION, VACANTES, MATRICULADOS, HORARIO, FECHAREGISTRO, ESTADO', 'required'),
+			array('IDCURSO, IDCICLO, IDPROFESOR, IDCARRERA, IDSECCION, VACANTES, MATRICULADOS, FECHAREGISTRO, ESTADO', 'required'),
 			array('IDCURSO, IDCICLO, IDPROFESOR, IDCARRERA, IDSECCION', 'length', 'max'=>10),
 			array('VACANTES, MATRICULADOS', 'length', 'max'=>3),
 			array('HORARIO', 'length', 'max'=>100),
@@ -127,4 +127,31 @@ class Cursoprogramado extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+
+
+
+	/* COMBO DEPENDIENTE */
+	public function getMenuCiclo()
+	{
+		return CHtml::listData(Ciclo::model()->findAll(), 'IDCICLO', 'DESCRIPCION');
+	}
+
+	public function getMenuCurso()
+	{
+		return CHtml::listData(Curso::model()->findAll(), 'IDCURSO', 'DESCRIPCION');
+	}
+
+
+/*
+	public function getMenuCiclo()
+	{
+		$ciclo=Ciclo::model()->findAll("ESTADO=?",array('A'));
+		return CHtml::listData(Ciclo::model()->findAll(), 'IDCICLO', 'DESCRIPCION');
+	}
+
+	public function getMenuCurso($defaultCiclo=1)
+	{
+		$curso=Curso::model()->findAll("ESTADO=? AND IDCICLO=?",array(1,$defaultCiclo));
+		return CHtml::listData($curso, 'IDCURSO', 'DESCRIPCION');
+	}*/
 }

@@ -30,15 +30,7 @@
 	<div class="form-group">
 		<?php echo $form->labelEx($model,'IDCICLO', array('class'=>'col-sm-2 control-label')); ?>
 		<div class="col-sm-3">
-			<?php echo $form->dropDownList($model,'IDCICLO',CHtml::listData(Ciclo::model()->findAll(), 'IDCICLO', 'DESCRIPCION'),
-				array('class'=>'form-control','empty'=>'Seleccione Ciclo',
-					'ajax' => array(
-						'type' => 'POST',
-						'url' => CController::createUrl('curso/listadodinamico'),
-						'update' => '#Cursoprogramado_IDCURSO',
-						)
-					)
-				); ?>
+			<?php echo $form->dropDownList($model,'IDCICLO',$model->getMenuCiclo(),array('class'=>'form-control','empty'=>'Seleccione Ciclo')); ?>
 			<?php echo $form->error($model,'IDCICLO'); ?>
 		</div>
 	</div>
@@ -46,23 +38,7 @@
 	<div class="form-group">
 		<?php echo $form->labelEx($model,'IDCURSO', array('class'=>'col-sm-2 control-label')); ?>
 		<div class="col-sm-5">
-			<?php echo $form->dropDownList($model,'IDCURSO',array('Seleccione Curso')); ?>
-			<?php echo $form->error($model,'IDCURSO'); ?>
-		</div>
-	</div>
-
-	<!--<div class="form-group">
-		<?php echo $form->labelEx($model,'IDCICLO', array('class'=>'col-sm-2 control-label')); ?>
-		<div class="col-sm-3">
-			<?php echo $form->dropDownList($model,'IDCICLO',CHtml::listData(Ciclo::model()->findAll(), 'IDCICLO', 'DESCRIPCION'),array('class'=>'form-control','empty'=>'Seleccione Ciclo')); ?>
-			<?php echo $form->error($model,'IDCICLO'); ?>
-		</div>
-	</div>-->
-
-	<div class="form-group">
-		<?php echo $form->labelEx($model,'IDCURSO', array('class'=>'col-sm-2 control-label')); ?>
-		<div class="col-sm-5">
-			<?php echo $form->dropDownList($model,'IDCURSO',CHtml::listData(Curso::model()->findAll(array('order' => 'descripcion ASC')), 'IDCURSO', 'DESCRIPCION'),array('class'=>'form-control','empty'=>'Seleccione Curso')); ?>
+			<?php echo $form->dropDownList($model,'IDCURSO',$model->getMenuCurso(),array('class'=>'form-control','empty'=>'Seleccione Curso')); ?>
 			<?php echo $form->error($model,'IDCURSO'); ?>
 		</div>
 	</div>

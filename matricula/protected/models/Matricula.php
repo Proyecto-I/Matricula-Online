@@ -1,29 +1,29 @@
 <?php
 
 /**
- * This is the model class for table "ciclo".
+ * This is the model class for table "matricula".
  *
- * The followings are the available columns in table 'ciclo':
- * @property string $IDCICLO
- * @property string $CODCICLO
- * @property string $DESCRIPCION
- * @property string $FEC_INICIO
- * @property string $FEC_TERMINO
+ * The followings are the available columns in table 'matricula':
+ * @property string $IDMATRICULA
+ * @property string $CODMATRICULA
+ * @property string $IDCURSO_PROG
+ * @property string $IDALUMNO
+ * @property string $FEC_MATRICULA
  * @property string $FECHAREGISTRO
  * @property string $ESTADO
  *
  * The followings are the available model relations:
- * @property Cursoprogramado[] $cursoprogramados
+ * @property Alumno $iDALUMNO
+ * @property Cursoprogramado $iDCURSOPROG
  */
-class Ciclo extends CActiveRecord
+class Matricula extends CActiveRecord
 {
-	private static $_items=array();
 	/**
 	 * @return string the associated database table name
 	 */
 	public function tableName()
 	{
-		return 'ciclo';
+		return 'matricula';
 	}
 
 	/**
@@ -34,14 +34,13 @@ class Ciclo extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('CODCICLO, DESCRIPCION, FECHAREGISTRO, ESTADO', 'required'),
-			array('CODCICLO', 'length', 'max'=>8),
-			array('DESCRIPCION', 'length', 'max'=>10),
+			array('IDCURSO_PROG, IDALUMNO, FEC_MATRICULA, FECHAREGISTRO, ESTADO', 'required'),
+			array('CODMATRICULA', 'length', 'max'=>8),
+			array('IDCURSO_PROG, IDALUMNO', 'length', 'max'=>10),
 			array('ESTADO', 'length', 'max'=>1),
-			array('FEC_INICIO, FEC_TERMINO', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('IDCICLO, CODCICLO, DESCRIPCION, FEC_INICIO, FEC_TERMINO, FECHAREGISTRO, ESTADO', 'safe', 'on'=>'search'),
+			array('IDMATRICULA, CODMATRICULA, IDCURSO_PROG, IDALUMNO, FEC_MATRICULA, FECHAREGISTRO, ESTADO', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -53,7 +52,8 @@ class Ciclo extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'cursoprogramados' => array(self::HAS_MANY, 'Cursoprogramado', 'IDCICLO'),
+			'iDALUMNO' => array(self::BELONGS_TO, 'Alumno', 'IDALUMNO'),
+			'iDCURSOPROG' => array(self::BELONGS_TO, 'Cursoprogramado', 'IDCURSO_PROG'),
 		);
 	}
 
@@ -63,12 +63,12 @@ class Ciclo extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'IDCICLO' => 'Idciclo',
-			'CODCICLO' => 'Cod. Ciclo',
-			'DESCRIPCION' => 'Descripción',
-			'FEC_INICIO' => 'Fecha Inicio',
-			'FEC_TERMINO' => 'Fecha Termino',
-			'FECHAREGISTRO' => 'Fecha Registro',
+			'IDMATRICULA' => 'Idmatricula',
+			'CODMATRICULA' => 'Codmatricula',
+			'IDCURSO_PROG' => 'Idcurso Prog',
+			'IDALUMNO' => 'Idalumno',
+			'FEC_MATRICULA' => 'Fec Matricula',
+			'FECHAREGISTRO' => 'Fecharegistro',
 			'ESTADO' => 'Estado',
 		);
 	}
@@ -91,11 +91,11 @@ class Ciclo extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('IDCICLO',$this->IDCICLO,true);
-		$criteria->compare('CODCICLO',$this->CODCICLO,true);
-		$criteria->compare('DESCRIPCION',$this->DESCRIPCION,true);
-		$criteria->compare('FEC_INICIO',$this->FEC_INICIO,true);
-		$criteria->compare('FEC_TERMINO',$this->FEC_TERMINO,true);
+		$criteria->compare('IDMATRICULA',$this->IDMATRICULA,true);
+		$criteria->compare('CODMATRICULA',$this->CODMATRICULA,true);
+		$criteria->compare('IDCURSO_PROG',$this->IDCURSO_PROG,true);
+		$criteria->compare('IDALUMNO',$this->IDALUMNO,true);
+		$criteria->compare('FEC_MATRICULA',$this->FEC_MATRICULA,true);
 		$criteria->compare('FECHAREGISTRO',$this->FECHAREGISTRO,true);
 		$criteria->compare('ESTADO',$this->ESTADO,true);
 
@@ -108,14 +108,23 @@ class Ciclo extends CActiveRecord
 	 * Returns the static model of the specified AR class.
 	 * Please note that you should have this exact method in all your CActiveRecord descendants!
 	 * @param string $className active record class name.
-	 * @return Ciclo the static model class
+	 * @return Matricula the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{
 		return parent::model($className);
 	}
 
-	
 
+	/* COMBO DEPENDIENTE */
+	public function getMenuProg()
+	{
+		return CHtml::listData(Cursoprogramado::model()->findAll(), 'IDCURSO_PROG', 'IDCURSO_PROG');
+	}
+
+	public function getMenuProg()
+	{
+		return CHtml::listData(Cursoprogramado::model()->findAll(), 'IDCURSO_PROG', 'IDCURSO_PROG');
+	}
 
 }
